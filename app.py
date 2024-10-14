@@ -1,16 +1,12 @@
-from flask import Flask
 import threading
-import os
 import time
-import pt_bot
-import pt_config
+import pt_logger  # 導入日誌配置
 import pt_scheduler
-app = Flask(__name__)
-@app.route("/")
+import pt_config
+import pt_bot
 
-def run_web_app():
-    port = int(os.environ.get("PORT", "8443"))
-    app.run("127.0.0.1", port)
+# 將 pt_logger.logger 賦值給 logger 變數
+logger = pt_logger.logger
 
 class TelegramAlertSchedulerThread(threading.Thread):
     def run(self) -> None:
@@ -19,34 +15,42 @@ class TelegramAlertSchedulerThread(threading.Thread):
                 pt_scheduler.telegram_alert_on_new()
                 time.sleep(pt_config.TELEGRAM_SEND_MESSAGE_INTERVAL)
             except Exception as e:
-                print(f"An error occurred: {e}")
-                pass
+                logger.error(f"An error occurred in TelegramAlertSchedulerThread: {e}")
+
 class PttCrawleFetcherThread(threading.Thread):
     def __init__(self, board_name):
         super().__init__()
-        self.board_name = board_name  # 將參數保存到實例屬性
-        #self.tg_chat_id = tg_chat_id  # 將參數保存到實例屬性
+        self.board_name = board_name
 
     def run(self) -> None:
         while True:
             try:
-                # 將參數傳遞給 pt_scheduler.ptt_crawler
                 pt_scheduler.ptt_crawler(self.board_name)
+                logger.info(f"Successfully fetched data for board: {self.board_name}")
             except Exception as e:
-                print(f"An error occurred: {e}")
-                pass
+                logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
 
 if __name__ == "__main__":
     if pt_config.TELEGRAM_BOT_MODE == "polling":
-        # 在創建 PttCrawleFetcherThread 時傳入參數
-        PttCrawleFetcherThread("NBA").start()
-        PttCrawleFetcherThread("Gossiping").start()
-        PttCrawleFetcherThread("Lifeismoney").start()
-        PttCrawleFetcherThread("Baseball").start()
-        PttCrawleFetcherThread("give").start()
-        PttCrawleFetcherThread("Broad_Band").start()
+        logger.info("Starting threads in polling mode...")
+        
+        boards = ["NBA", "Gossiping", "Lifeismoney", "Baseball", "give", "Broad_Band"]
+        threads = []
+        for board in boards:
+            thread = PttCrawleFetcherThread(board)
+            thread.start()
+            threads.append(thread)  # 儲存線程以便後續操作
+            logger.info(f"Started PttCrawleFetcherThread for board: {board}")
 
-        TelegramAlertSchedulerThread().start()
+        alert_thread = TelegramAlertSchedulerThread()
+        alert_thread.start()
+        logger.info("Started TelegramAlertSchedulerThread.")
+        
         pt_bot.application.run_polling()
+        logger.info("Telegram bot polling started.")
+
+        # 可選：等待所有 PTT 爬蟲線程結束
+        for thread in threads:
+            thread.join()
     else:
-        run_web_app()
+        logger.info("Running in web app mode...")

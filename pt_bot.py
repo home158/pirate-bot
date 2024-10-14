@@ -15,22 +15,26 @@ from telegram import Message
 import asyncio
 import inspect
 
+# 使用 pt_logger 設定日誌
+import pt_logger
+
 application = Application.builder().token(pt_config.BOT_TOKEN).build()
 
 bot_event_loop = asyncio.new_event_loop()
-logger = logging.getLogger("bot")
+logger = pt_logger.logger
 
 
 def send(msg, chat_id):
     try:
         result = bot_event_loop.run_until_complete(application.bot.sendMessage(chat_id=chat_id, text=msg, parse_mode='html'))
         if isinstance(result, Message):
-            #print("Message sent successfully:", result)
             return result
         else:
             print("Result is not a Message object:", result)
     except:
         logger.error("Send message and catch the exception.", exc_info=True)
+
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     message = f'''
             /my 顯示追蹤清單
@@ -46,4 +50,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 def _register_bot_command_handler():
     start_handler = CommandHandler("start", start)
     application.add_handler(start_handler)
+
+
 _register_bot_command_handler()
