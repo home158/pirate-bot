@@ -14,7 +14,12 @@ website = db.pirate
 
 def insert_to_database(chat_id=None, board=None, title=None, link=None):
     current_time = datetime.now()
-    
+    if title is None:
+        logger.info(f"Title is none empty, no insert performed.")
+        return False, current_time
+    if title == "":
+        logger.info(f"Title is none empty, no insert performed.")
+        return False, current_time
     # 準備新文章資料
     product_details = {
         'board': board.strip(),
@@ -22,7 +27,8 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
         'link': link,
         'insert_time': current_time,
         'chat_id': chat_id,
-        'tg_notify_time': None
+        'tg_notify_time': None,
+        'gmail_notify_time': None
     }
     
     try:
@@ -44,10 +50,10 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
         logger.error(f"Error inserting document: {e}")
         return False, current_time
 
-def retrieve_updates_after_time():
+def retrieve_updates_after_time(type):
     try:
         # 查詢 tg_notify_time 為 None 的文章
-        documents = website.find({"tg_notify_time": None}).limit(pt_config.TELEGRAM_NOTIFY_ONCE_COUNT)
+        documents = website.find({type: None}).limit(pt_config.TELEGRAM_NOTIFY_ONCE_COUNT)
         json_array = [doc for doc in documents]  # 轉換為 JSON 列表
         
         logger.info(f"Retrieved {len(json_array)} documents for notification.")
@@ -56,12 +62,12 @@ def retrieve_updates_after_time():
         logger.error(f"Error retrieving documents: {e}")
         return []
 
-def update_tg_notify_time(_id):
+def update_notify_time(type,_id):
     current_time = datetime.now()
     try:
         result = website.update_one(
             {'_id': _id},  # 根據 _id 匹配文件
-            {'$set': {'tg_notify_time': current_time}}  # 更新通知時間
+            {'$set': {type: current_time}}  # 更新通知時間
         )
         if result.modified_count > 0:
             logger.info(f"Document with _id {_id} was updated successfully.")

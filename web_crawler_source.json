@@ -166,5 +166,17 @@
         "note": "新北PAY",
         "domain": "",
         "chat_id": -1001803259326
+    },
+    {
+        "url": "https://campaign.kingcar.com.tw/",
+        "css_selector":
+        [
+            "#current > ol > li",
+            "a > div.text > div.summary",
+            "a"
+        ],
+        "note": "金車關係事業活動網站",
+        "domain": "",
+        "chat_id": -1001803259326
     }
 ]   

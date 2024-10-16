@@ -1,0 +1,8403 @@
+[{
+  "_id": {
+    "$oid": "670e10c8af0992b25e35e3a4"
+  },
+  "board": "beclass 台北科教館",
+  "title": "【2024年第五屆臺灣科學節】科學嘉年華：校園日(限20人以上團體報名)",
+  "link": "https://www.beclass.com/rid=294da6f67037e2635eb0",
+  "insert_time": {
+    "$date": "2024-10-15T14:50:48.556Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:50:52.573Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:54:42.671Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10c8af0992b25e35e3a5"
+  },
+  "board": "beclass 台北科教館",
+  "title": "科教館教師研習【AI Start ! 科技素養與Artec 程式機器人實作】",
+  "link": "https://www.beclass.com/rid=294da2166f8e2d0706a5",
+  "insert_time": {
+    "$date": "2024-10-15T14:50:48.604Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:50:53.113Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:54:46.985Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10c8af0992b25e35e3a6"
+  },
+  "board": "beclass 台北科教館",
+  "title": "國際教育講座：探索法國與親子共學",
+  "link": "https://www.beclass.com/rid=294da1f66f685248dc62",
+  "insert_time": {
+    "$date": "2024-10-15T14:50:48.641Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:50:53.660Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:54:51.177Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ccaf0992b25e35e3a7"
+  },
+  "board": "beclass 2024八里城市沙雕展",
+  "title": "10/27(日)嘉有好市集—嘉味鬆餅",
+  "link": "https://www.beclass.com/rid=294da1d66f3913442e4f",
+  "insert_time": {
+    "$date": "2024-10-15T14:50:52.403Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:02.856Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:54:55.443Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3a8"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2023新北歡樂耶誕城",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2187",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.556Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:03.400Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:00.004Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3a9"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "乘船而來—臺灣古代外來品特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/1876",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.594Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:03.927Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:09.315Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3aa"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "siyon trakis 親愛的小米：烏來泰雅族歲時祭儀演變歷程特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2183",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.629Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:04.455Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:13.784Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3ab"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "超越視覺的藝術奇境－大石曉規特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2176",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.672Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:05.012Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:18.025Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3ac"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "幻畫維度:數位互動藝術展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2189",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.703Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:14.098Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:22.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3ad"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2023臺灣陶藝獎",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2215",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.742Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:14.617Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:26.254Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3ae"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "南島之音-古代南島樂器特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2218",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.776Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:15.125Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:35.383Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3af"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「藝‧光陰」新北市國際藝術村10周年聯展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2214",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.810Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:15.656Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:38.991Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3b0"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "《飛天‧女神》神話史詩光影沉浸音樂劇",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2220",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.846Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:16.172Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:42.647Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3b1"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "【展覽】迒hānn-真雲林閣掌中劇團精選劇目特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2254",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.882Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:25.277Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:46.922Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3b2"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「如夢令」花漾畫會聯展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2257",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.916Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:25.789Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:50.593Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3b3"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "第九屆 北臺八縣市藝術家聯展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2253",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.952Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:26.289Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:55:59.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d4af0992b25e35e3b4"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "化土為水-陶瓷與水文環境特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2251",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:00.988Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:27.227Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:03.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3b5"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「器—天地人之器」特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2252",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.026Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:27.735Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:07.388Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3b6"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "黃莉翔 紐約文字•影像展覽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2255",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.061Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:36.835Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:11.404Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3b7"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北市攝影學會【飛越50】攝影美展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2256",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.097Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:37.415Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:15.593Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3b8"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "增生的物種。我與我的小怪物—梁佑華創作展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2250",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.131Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:53.997Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:24.266Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3b9"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年汐止區康誥坑溪文化櫻花季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2258",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.167Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:54.513Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:28.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3ba"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "《淡古聯萌》IP特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2805",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.202Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:51:56.030Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:32.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3bb"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北石碇櫻花季-櫻花雪月漫",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2276",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.236Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:05.120Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:36.399Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3bc"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "龍年新春系列活動「轟龍轟龍～好運long long來~」",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2283",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.271Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:05.636Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:40.587Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3bd"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北蒔花好綻－2024花見櫻花季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2271",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.310Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:06.140Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:49.256Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3be"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "府中雙城•成雙共舞",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2275",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.346Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:06.638Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:53.408Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3bf"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "環境教育體驗冬令營-陶博陶工趣&遊〝垃〞園尋寶",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2278",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.382Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:07.153Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:56:56.965Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c0"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "府中1起與龍共5",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2281",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.419Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:16.214Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:00.638Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c1"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024「金運昌龍」新春活動！",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2280",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.453Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:16.779Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:04.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c2"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "【全市】113年舞龍迎春賀新歲—書香龍年集章趣",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2279",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.488Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:17.293Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:13.567Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c3"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北燈會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2273",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.521Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:17.861Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:18.275Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c4"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市平溪天燈節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2263",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.560Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:18.367Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:22.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c5"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "稼日蒔光",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2268",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.595Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:27.492Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:25.539Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c6"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024中港大排光雕展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2303",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.630Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:28.659Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:30.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c7"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "Open For You新北閃耀教育季系列活動 SHINE YO",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2302",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.667Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:29.153Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:38.899Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c8"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "親子體驗課程-開心龍工作坊",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2310",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.703Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:29.640Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:42.468Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3c9"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "陶藝創作交流講座",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2309",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.737Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:30.151Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:46.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3ca"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市三芝區櫻花季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2304",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.771Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:39.240Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:49.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3cb"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「青年一日營」藝術家工作室參訪",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2312",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.804Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:39.730Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:57:53.363Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3cc"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "吳明儀：「柴燒陶-不只是柴燒」柴燒陶技法研習",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2314",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.838Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:55.292Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:02.442Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3cd"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "好客風味喫茶所展覽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2397",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.875Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:55.795Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:06.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3ce"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北情人節市集",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2284",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.912Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:52:56.308Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:10.280Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3cf"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "點-線-面的神奇陶次元 示範講座",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2313",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.948Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:05.494Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:13.946Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d5af0992b25e35e3d0"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「肩上的技藝與記憶—泰雅族kiri」特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2387",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:01.982Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:06.019Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:17.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d1"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "奧地利格蒙登陶瓷學院×鶯歌陶瓷博物館 駐村交換分享會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2311",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.019Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:06.530Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:26.119Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d2"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北講堂",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2318",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.059Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:07.060Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:30.040Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d3"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024萬金石馬拉松",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2288",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.095Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:07.596Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:33.549Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d4"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北春紛節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2316",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.130Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:16.695Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:36.829Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d5"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "春遊三鶯",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2320",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.186Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:17.188Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:40.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d6"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市多元文化節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2317",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.220Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:17.695Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:48.983Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d7"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "公園漫遊PROMENADE IN THE PARK",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2388",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.253Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:18.204Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:52.950Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d8"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市鐵道馬拉松接力賽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2199",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.291Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:18.708Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:58:56.716Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3d9"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024碧潭水舞",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2419",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.323Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:27.812Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:00.068Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3da"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024九份紅燈籠祭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2409",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.354Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:28.464Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:03.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3db"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北考古生活節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2367",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.832Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:29.036Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:12.076Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3dc"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "Woo礦石色",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2806",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.867Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:29.604Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:16.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3dd"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024茶山繚療",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2368",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.902Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:30.113Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:19.881Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3de"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北藍茶藝術季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2366",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.937Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:39.171Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:24.200Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d6af0992b25e35e3df"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024觀音觀鷹",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2378",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:02.970Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:39.669Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:27.748Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e0"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市學校合作計畫｜新星相映",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2429",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.009Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:56.211Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:36.391Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e1"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "全視之眼—第六屆機動眼國際動態媒體藝術節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2396",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.045Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:56.785Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:40.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e2"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "FASHION FOR ALL新北·構時尚",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2404",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.079Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:53:57.288Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:43.780Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e3"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北閱讀節—「永續SDGs，『讀』就GO」",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2369",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.113Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:06.422Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:47.731Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e4"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北環境季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2410",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.147Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:06.926Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T15:59:51.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e5"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北市文化行旅",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2379",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.182Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:07.430Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:00.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e6"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "桐旅行趣｜桐花小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2380",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.218Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:07.984Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:05.080Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e7"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市客家桐花祭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2328",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.254Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:08.492Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:08.913Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e8"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "日常既視｜用藝術探索生活",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2628",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.288Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:17.739Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:12.642Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3e9"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "龍躍文資｜新北傳統工藝暨新店十四張城市記憶特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2705",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.326Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:18.244Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:16.062Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3ea"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "我愛淡水河活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2381",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.364Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:18.787Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:25.133Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3eb"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024土城桐花祭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2353",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.403Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:19.459Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:29.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3ec"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "桐遊鶯歌樂陶陶鶯歌｜桐花小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2384",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.437Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:20.030Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:33.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3ed"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024「漫話淡水-滬尾講堂」",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2443",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.471Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:29.392Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:37.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3ee"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "萬福悠桐｜桐花小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2372",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.504Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:29.952Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:40.622Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3ef"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "春日桐花宴｜桐花小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2354",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.537Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:30.478Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:49.006Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f0"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "龍騰飛彩—亞太國際彩墨藝術家協會聯展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2377",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.574Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:31.069Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:53.272Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f1"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "稻埕—水印設計陶藝展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2385",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.610Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:32.103Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:00:57.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f2"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "桐花稼期｜桐花小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2382",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.645Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:41.247Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:01.332Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f3"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "悠市 Youth Bazaar",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2405",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.680Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:41.795Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:05.245Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f4"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "花見新店｜桐花小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2383",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.714Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:57.494Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:14.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f5"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024萬里繡球花季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2416",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.750Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:58.063Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:17.317Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f6"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「礦山的南丁格爾」特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2427",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.785Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:54:58.609Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:20.914Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f7"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年林口區母親節親子健走祈福活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2394",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.818Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:07.676Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:25.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f8"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "消匿之徑：肌理記憶集結展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2441",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.860Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:08.205Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:28.333Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3f9"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市鼓藝節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2428",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.897Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:08.704Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:36.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3fa"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024福隆生活節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2493",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.932Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:09.262Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:41.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d7af0992b25e35e3fb"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024福隆國際沙雕藝術季『LINE FRIENDS夏日明星派對』",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2448",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:03.968Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:09.768Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:44.823Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e3fc"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年春季新北好茶-春飲",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2442",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.006Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:18.835Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:48.274Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e3fd"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "RE ³布袋戲特展 (Recreate X Reimagine X Remake)",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2447",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.039Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:19.327Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:01:51.551Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e3fe"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "流光-植物灰釉特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2446",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.076Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:19.823Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:00.798Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e3ff"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市巷弄藝起來",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2479",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.111Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:20.461Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:04.377Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e400"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "小樹市集IN新北",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2478",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.146Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:20.977Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:07.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e401"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "一村民歌同學會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2481",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.180Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:30.108Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:11.424Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e402"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024北海岸時尚藝術季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2473",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.216Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:30.655Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:14.693Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e403"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "《海山煤礦的光與影》礦災四十周年紀念展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2495",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.248Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:31.158Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:23.910Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e404"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "熊心收藏所 Bear in mind｜小黃間創作展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2506",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.283Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:31.704Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:27.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e405"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024未來生活節—夏日青創市集",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2497",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.319Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:32.229Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:30.683Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e406"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市全國大南瓜比賽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2482",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.358Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:41.312Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:34.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e407"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024戀戀雙溪荷所在",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2496",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.398Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:55:41.820Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:37.545Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e408"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市街頭學校",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2494",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.432Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:00.020Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:46.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e409"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024愛傳承關懷演唱會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2503",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.466Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:00.520Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:49.966Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e40a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024永和區暑假親子趣",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2529",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.503Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:01.023Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:53.352Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e40b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北市文化行旅｜聚落文化路線",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2507",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.537Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:10.127Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:02:56.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e40c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024野柳石光夜訪女王",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2468",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.571Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:10.681Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:00.438Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e40d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新莊响仁和鼓文化特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2504",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.605Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:11.203Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:08.766Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e40e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "形溯—陳銘政土塑個展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2543",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.642Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:11.730Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:12.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d8af0992b25e35e40f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北市113年食農教育特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2505",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:04.678Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:12.270Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:15.447Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e410"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "FOOD超人—兒藝節出任務特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2550",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.545Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:21.379Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:19.176Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e411"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年「夏日閱在地」暑期閱讀活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2575",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.580Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:21.909Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:22.706Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e412"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北觀光工廠｜青春造一夏",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2583",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.616Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:22.540Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:31.736Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e413"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024礦山藝術季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2484",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.652Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:23.110Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:35.091Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e414"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「體育課」展覽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2552",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.686Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:23.714Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:38.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e415"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年和美海之家珊瑚保育行動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2536",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.720Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:32.827Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:42.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e416"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "森林裡的一籃精怪-吳望如現代剪紙個展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2554",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.752Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:33.374Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:45.907Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e417"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024三峽藍染節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2531",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.787Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:33.915Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:54.592Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e418"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024三重親子兒童劇場",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2643",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.819Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:34.511Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:03:58.241Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e419"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年週末藝術秀",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2534",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.852Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:35.095Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:01.690Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e41a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "微笑山線縱走體驗活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2544",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.886Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:44.191Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:05.631Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e41b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "藝術不僅僅只是藝術｜游雅茜個展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2629",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.922Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:56:44.706Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:09.189Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e41c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「茶與王」特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2608",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.954Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:01.390Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:17.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10d9af0992b25e35e41d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024全國兒少陶藝獎",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2542",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:05.986Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:01.920Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:21.600Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e41e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024板橋夏日嘉年華",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2511",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.020Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:02.471Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:25.433Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e41f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市兒童藝術節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2537",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.053Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:11.595Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:28.820Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e420"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "北桃幸福038+",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2524",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.093Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:12.129Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:32.209Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e421"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024永和仲夏夜之夢",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2530",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.124Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:12.683Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:40.832Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e422"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「藝一夏」系列活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2607",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.161Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:13.231Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:44.109Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e423"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北市兒童藝術節活動響應—《Terminus》跨國跨域共製巡迴",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2547",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.196Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:13.729Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:47.411Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e424"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "Young Young都來玩街頭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2545",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.229Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:22.810Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:50.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e425"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "435夏日必「修」課",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2555",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.264Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:23.304Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:04:54.113Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e426"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北管樂節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2535",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.300Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:23.812Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:03.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e427"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "爺奶萬萬歲 新店活力GO",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2665",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.336Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:24.327Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:07.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e428"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市河海音樂季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2516",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.370Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:24.859Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:10.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e429"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "課後活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2801",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.404Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:34.116Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:13.790Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e42a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "三峽納涼祭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2520",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.442Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:34.835Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:17.201Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e42b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024三重社區音樂會｜六張小夜曲",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2582",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.478Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:35.341Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:25.609Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e42c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年雙溪秋收稻穗慶豐年活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2558",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.514Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:35.849Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:28.892Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e42d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年八里港灣嘉年華",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2581",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.549Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:36.392Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:33.266Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e42e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北南島文化節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2576",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.583Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:45.548Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:37.446Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e42f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024福隆生活節｜草地浪花音樂會&山海市集",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2579",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.619Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:57:46.094Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:41.360Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e430"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "第三屆「新北文化遺產小小導覽員」培訓計畫",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2580",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.661Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:02.138Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:50.255Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e431"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市生音藝術節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2574",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.700Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:02.660Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:54.257Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e432"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "極線 無限｜藝術拼布聯展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2688",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.736Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:03.171Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:05:57.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e433"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "食現未來 F∞D Sustainable Future 食農教育展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2635",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.769Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:12.224Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:02.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e434"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "小即是美－馬丁･哈曼陶瓷雕塑個展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2612",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.803Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:12.747Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:06.613Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e435"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024北海岸浪一夏",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2658",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.836Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:13.277Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:15.873Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e436"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024永和兒童創意繪畫比賽暨仲夏親子電影院",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2642",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.870Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:13.775Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:19.786Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e437"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年度新北市樹林區｜戀戀山佳懷念老歌演唱會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2611",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.903Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:14.310Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:23.786Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e438"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024文資開箱趣｜傳統工藝研習課程",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2646",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.937Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:23.388Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:27.643Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10daaf0992b25e35e439"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北大咬樂-夏日嗨漁港",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2634",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:06.971Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:23.924Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:31.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e43a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北客家迷彩學｜夏季同樂會x感知實驗室",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2647",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.003Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:24.489Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:40.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e43b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新莊有好戲",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2699",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.036Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:25.073Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:43.895Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e43c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024北海潮與火",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2417",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.069Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:25.594Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:47.223Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e43d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024淡水漁人碼頭仲夏繽紛樂活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2418",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.103Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:34.752Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:51.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e43e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北電競同樂會｜ESPORTS PARTY盛夏派對",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2644",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.136Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:35.268Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:06:55.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e43f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北FUN街頭國際街舞大賽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2610",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.171Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:35.786Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:04.215Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e440"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市新莊兒童藝術季暨星光電影院",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2662",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.205Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:36.389Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:07.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e441"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024八里左岸夢幻情緣光雕展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2704",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.237Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:36.902Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:11.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e442"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024金山甘藷季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2654",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.269Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:45.982Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:15.416Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e443"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024淡水右岸好好生活節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2679",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.303Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:58:46.495Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:18.737Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e444"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024八里城市沙雕展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2657",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.337Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:03.127Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:27.715Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e445"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "創意野餐趣暨租稅宣導園遊會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2667",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.370Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:03.702Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:31.171Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e446"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024八里兒童親子藝術季｜八里Chill海海！性平藝起來！",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2683",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.403Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:04.289Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:34.778Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e447"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "深澳小卷市集",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2701",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.438Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:13.451Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:38.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e448"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024汐止區仲夏音樂派對",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2659",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.469Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:13.982Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:41.656Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e449"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "BREAK! 星辰管樂團年度音樂會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2700",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.503Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:14.593Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:50.145Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e44a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "金色淡水金曲之夜演唱會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2660",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.536Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:15.100Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:53.986Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e44b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北紀錄片獎系列活動｜星空放映場 新北場",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2702",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.570Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:15.665Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:07:57.293Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e44c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "Kamaro''an ita 我們安居之所－2024原住民族裝置藝術展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2656",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.629Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:24.768Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:01.189Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e44d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年「在地之聲」台語閱讀推廣活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2841",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.664Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:25.295Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:04.514Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e44e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年中和土地公文化祭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2748",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.699Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:25.807Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:12.827Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e44f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024北臺灣媽祖文化節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2723",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.732Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:26.316Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:16.730Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e450"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "妙音曼舞—敦煌樂舞文化主題展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2741",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.765Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:26.826Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:19.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e451"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "如果中秋在土城｜明星兔運動會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2717",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.798Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:35.980Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:23.241Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e452"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024柚饗新北園遊會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2726",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.832Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:36.512Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:26.497Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e453"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024 You Stage歌唱比賽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2664",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.865Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:37.088Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:35.580Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e454"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024全國古蹟日—新北文資瞄廟妙",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2744",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.899Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:37.598Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:39.600Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e455"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市樹林星光童樂會暨紅麴野餐趣",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2680",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.931Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:38.115Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:43.657Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dbaf0992b25e35e456"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "礦山藝術巡禮-古蹟與藝術的對話講座",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2727",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:07.966Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:47.212Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:47.018Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e457"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024萬里蟹花點石間來海邊(野柳漁港假日活蟹市集)",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2754",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.000Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T14:59:47.756Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:50.512Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e458"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024黃金山城小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2746",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.037Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:04.307Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:08:59.420Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e459"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "水岸花都．漫遊趣",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2714",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.069Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:04.873Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:02.692Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e45a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024極北點富貴角燈塔自行車騎遊活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2666",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.102Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:05.419Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:06.037Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e45b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "五寮筍鄉山客行｜大三鶯走路節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2722",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.137Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:14.522Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:09.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e45c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024黃金山城之瓶燈饗宴小旅行",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2747",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.170Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:15.045Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:13.730Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e45d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024仲夏—深情海岸 澳港LOVE遊活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2745",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.204Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:15.593Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:22.690Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e45e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市烏來區全區運動會活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2821",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.239Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:16.108Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:26.073Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e45f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市新莊中秋音樂饗宴｜台語月夜",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2716",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.275Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:16.601Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:30.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e460"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024深坑區中秋聯歡晚會｜深坑有約 幸福Chill月",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2706",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.310Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:25.879Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:34.220Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e461"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "今月兔Chill",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2773",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.345Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:26.722Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:37.538Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e462"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024霞海月老來林園系列活動｜中秋月圓 情牽林園",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2774",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.379Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:27.285Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:45.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e463"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "草原上的牛羚偶爾會想起它的前世｜吳宜樺個展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2798",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.414Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:28.044Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:49.570Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e464"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024我金山我驕傲健走路跑活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2703",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.448Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:28.640Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:53.511Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e465"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市永和區懷舊時光西洋經典老歌",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2721",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.481Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:37.788Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:09:56.864Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e466"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市客家文藝展演活動｜經典三腳採茶戲",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2724",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.515Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:38.303Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:02.718Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e467"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年春季新北好茶-夏封",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2578",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.549Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:38.806Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:11.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e468"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "返照之境｜新媒體藝術展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2799",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.583Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:39.320Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:15.545Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e469"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "漫話淡水｜跟著淡古聯盟看古蹟",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2804",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.618Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:39.829Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:18.788Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e46a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "第七屆樹林之美寫生比賽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2718",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.653Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:48.952Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:22.043Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e46b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市蘆洲區月音悠揚中秋鋸琴感恩音樂會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2771",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.686Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:00:49.478Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:25.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e46c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "《顯性進駐行為》435藝術聚落年度展覽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2800",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.720Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:05.105Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:34.921Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e46d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年濕地故事館巡守隊特展｜即拾巡樂",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2797",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.758Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:05.771Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:38.239Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e46e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市永和區快樂親子電影好時光",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2720",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.789Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:06.278Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:42.141Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e46f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市北海岸國際風箏節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2729",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.821Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:15.405Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:45.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e470"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市客家義民爺文化祭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2521",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.858Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:15.924Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:49.973Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e471"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市樂壇新星沙龍音樂會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2777",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.893Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:16.458Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:10:59.086Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e472"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024福爾摩沙北海岸藝術季",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2663",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.928Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:16.966Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:03.022Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dcaf0992b25e35e473"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北眷村文化節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2802",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.963Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:17.489Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:06.378Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ddaf0992b25e35e474"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北移工多元文化戲劇巡演｜多元新宇宙",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2803",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:08.999Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:26.544Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:10.333Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ddaf0992b25e35e475"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "FOOTLAND 2024 GOLD RUSH金礦越野",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2630",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:09.033Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:27.065Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:14.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e476"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024鶯歌產地開放日",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2645",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.282Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:27.593Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:23.096Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e477"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "曲線碰撞—大衛莫里斯個展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2829",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.314Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:28.102Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:26.562Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e478"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024臺灣國際陶藝雙年展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2740",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.347Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:28.633Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:30.445Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e479"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "新北市敬老獻藝歌仔戲",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2823",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.380Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:37.708Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:33.869Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e47a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市生音藝術節－原創馬戲音樂劇《腳不落地的孩子》",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2826",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.414Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:38.203Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:37.203Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e47b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "府中奇幻城系列活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2822",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.449Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:38.725Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:45.625Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e47c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "穿越時空‧美好再現系列活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2840",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.483Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:39.272Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:49.213Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e47d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「少年拍-Video Format of You」特展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2824",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.516Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:39.820Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:52.569Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e47e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024博克多烏來馬拉松",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2631",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.549Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:48.972Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:11:56.488Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e47f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024永和中秋慶團圓音樂晚會",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2719",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.582Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:01:49.496Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:00.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e480"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "ALLO個人創作展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2827",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.615Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:06.056Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:09.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e481"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "「秋日藝境」甜點蠟燭手作工作坊",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2828",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.649Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:06.593Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:13.605Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e482"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "黃金雙十—黃金博物館國慶系列活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2850",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.685Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:07.095Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:17.915Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e483"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市國慶升旗活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2852",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.719Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:16.232Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:22.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e484"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "中華文耀·甲辰之美—祥龍獻瑞國際藝術聯展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2831",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.754Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:16.807Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:26.581Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e485"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "一碗人情—歐長坤(歐鐵)茶碗展",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2830",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.786Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:17.327Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:35.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e486"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024夢想嘉年華｜舞現 ∞ 無限  INFINITE",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2749",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.821Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:17.853Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:38.475Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e487"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "社造30世代進行式：新北社造展 從鄰到一",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2839",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.853Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:18.391Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:42.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e488"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024鶯歌嘉年華｜秋遊樂陶陶",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2685",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.887Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:28.141Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:46.450Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e489"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024育化藝術舞蹈節&瑞芳樂舞四部曲",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2790",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.921Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:28.667Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:49.856Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e48a"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024淡水藝術嘉年華",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2687",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.960Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:29.268Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:12:58.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10deaf0992b25e35e48b"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市蘆洲神將文化祭",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2770",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:10.996Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:29.785Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:02.622Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e48c"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "小樹市集IN新北",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2842",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.031Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:30.300Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:06.284Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e48d"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "國際考古日｜夜宿博物館",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2853",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.065Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:39.466Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:10.303Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e48e"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北好市節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2686",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.101Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:40.001Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:13.757Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e48f"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "追聲音樂祭 𝐒𝐨𝐧𝐢𝐜 𝐖𝐚𝐧𝐝𝐞𝐫𝐢𝐧𝐠 𝐌𝐮𝐬𝐢𝐜 𝐅𝐞𝐬𝐭𝐢𝐯𝐚𝐥",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2838",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.137Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:40.503Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:22.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e490"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市泰山獅王文化節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2769",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.176Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:41.018Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:26.695Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e491"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市原住民族聯合文化活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2837",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.209Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:41.536Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:38.147Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e492"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024樹林跳：跳島舞蹈節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2778",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.245Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:50.639Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:41.869Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e493"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年新北市深坑四寶文化節",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2855",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.280Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:02:51.171Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:44.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e494"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "113年三芝茭白筍節· 海洋芝心茭響曲活動",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2854",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.316Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:08.228Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:52.868Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e495"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024｜435 秋日野趣物語",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2775",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.349Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:08.815Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:55.530Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e496"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "2024新北市第十屆工安盃路跑",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2689",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.382Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:09.326Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:13:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e497"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "玩一個小自然：兒童視角的自然遊戲地圖",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2851",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.415Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:18.447Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:03.582Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e498"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "第九屆新北市八個浪pakelang城市狩獵路跑",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2757",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.452Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:19.036Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:07.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10dfaf0992b25e35e499"
+  },
+  "board": "新北市政府觀光旅遊局",
+  "title": "耶誕快追!2024新北市耶誕馬拉松接力賽",
+  "link": "https://newtaipei.travel/zh-tw/calendar/detail/2632",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:11.486Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:19.561Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:16.664Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e49a"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "坪林區胡桶古道因發生蜂螫事件，即日起至113年12月31日暫停開放。",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2856",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.112Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:20.093Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:20.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e49b"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "嘉義縣文化觀光局辦理「黃阿瑪來嘉走走 步道尋寶」活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2846",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.144Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:20.671Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:23.999Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e49c"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "114年第1季碧潭風景區街頭藝人從事表演藝術類展演申請",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2844",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.176Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:29.911Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:26.979Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e49d"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "來新北喜迎國慶 3種風格玩法樣樣行",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2845",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.207Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:30.441Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:29.417Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e49e"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "深澳鐵道自行車自今(7)日起恢復正常營運。",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2843",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.236Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:30.943Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:37.477Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e49f"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "瑞芳深澳鐵道自行車，因颱風影響，後續需進行相關環境清整及設施檢查作業，明(5)日起暫停服務。",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2836",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.267Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:31.449Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:39.919Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a0"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "瑞芳區茶壺山登山口旁觀景平台，暫停開放。",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2835",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.298Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:31.979Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:43.260Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a1"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "山陀兒颱風帶來豐沛雨量 瑞芳區遊憩區明日暫停服務",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2834",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.327Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:41.109Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:47.026Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a2"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "因應山陀兒颱風來襲新北市停班停課 境內景點、遊客中心及觀光遊樂業暫停服務",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2833",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.359Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:41.686Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:14:51.948Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a3"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "受山陀兒颱風外圍環流影響，請民眾非必要勿前往本市山區、海域或至沿海地區海釣及觀浪，以免發生危險。",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2825",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.388Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:42.248Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:00.947Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a4"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "因應山陀兒颱風來襲 新北市部分設施暫停服務",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2832",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.420Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:42.772Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:04.870Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a5"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "瑞芳區金字碑步道邊坡崩塌即日起緊急封閉部分路段",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2819",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.451Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:43.328Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:08.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a6"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "瑞芳區茶壺山步道即日起緊急封閉步道",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2820",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.485Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:52.397Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:11.868Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a7"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "雙溪中坑步道入口處前的產業道路便橋，因受大雨影響坍塌無法通行，暫時封閉， 請勿進入以策安全。",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2817",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.518Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:03:52.941Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:14.300Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a8"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "臺中市和平區公所辦理「Klokah Tayal~看見和平．點亮慢城觀光季暨珍愛大自然水電資源宣導活動」",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2818",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.547Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:08.662Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:22.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4a9"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "交通部觀光署東北角及宜蘭海岸國家風景區管理處辦理「觀光之夜in福隆」活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2816",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.578Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:09.178Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:25.025Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4aa"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "交通部觀光署澎湖國家風景區管理處辦理「2024澎湖鹹水煙藝術季」活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2814",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.609Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:09.761Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:27.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4ab"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "交通部觀光署東北角及宜蘭海岸國家風景區管理處辦理「2024壯圍生活節-壯圍沙丘日」活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2815",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.643Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:18.860Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:30.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4ac"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "新北露營場輔導團啟動  首場露營說明會在三鶯",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2807",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.676Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:19.393Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:33.997Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4ad"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "新北市旅館從業績優人員表揚活動 侯友宜市長頒獎感謝從業人員付出",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2796",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.708Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:19.919Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:42.112Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4ae"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "農業部林業及自然保育署新竹分署辦理「回森林家-尋找森與心的療癒」系列活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2792",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.736Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:20.456Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:44.631Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4af"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "十分瀑布4K即時影像上線 線上感受大自然的磅礡",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2791",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.765Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:20.978Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:47.106Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4b0"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "應邀參加日本大飯町「大火勢」　新北邀日方來平溪放天燈",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2780",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.795Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:30.164Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:49.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4b1"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "新北旅宿輔導團開跑 住宿品質優化再升級",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2779",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.825Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:30.674Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:15:52.619Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4b2"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "南投縣名間鄉公所舉辦「2024名間鄉茶飲文化節」系列活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2772",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.853Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:31.198Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:00.130Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4b3"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "「新北歡樂耶誕城」獲2024紐約設計獎全球金獎桂冠殊榮",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2776",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.884Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:31.717Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:03.344Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4b4"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "交通部觀光署東北角及宜蘭海岸國家風景區管理處舉辦「舊草嶺隧道百周年慶」活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2768",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.912Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:32.262Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:06.379Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4b5"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "「秋高氣爽chill 揪遊新北去」",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2767",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.943Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:41.446Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:09.567Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e3af0992b25e35e4b6"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "屏東縣政府舉辦「2024海洋嘉年華」活動",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2765",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:15.974Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:42.811Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:12.400Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10e4af0992b25e35e4b7"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "中秋賞月新選擇 搭台灣好行965秋遊黃金山城",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2758",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:16.009Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:43.356Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:19.913Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4b8"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】故宮x 2024臺北白晝之夜x《故宮爵士夜》音樂會",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013860&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.345Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:43.896Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:22.925Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4b9"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】「公主駕到！清代文獻中的公主身影」特展專題系列講座",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013867&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.388Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:44.429Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:25.519Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4ba"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】「畫語─會說故事的圖畫」特展專題系列講座",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013864&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.415Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:53.519Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:28.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4bb"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】2024故宮樂齡月─賞味人生（10.8-11.8）",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013862&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.441Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:04:54.051Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:31.118Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4bc"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】【本次申請已額滿】113年度下半年「故宮遊藝思─學子嗨FUN參訪北部院區」(參訪時間：113年10月1日至113年12月13日)",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013735&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.469Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:09.580Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:39.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4bd"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】「公主駕到！清代文獻中的公主身影」特展專人導覽",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013816&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.496Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:10.088Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:42.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4be"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】給寶藏獵人的成年禮─故宮北院X臺灣股票博物館高中生探索之旅 開放延長申請",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013729&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.524Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:11.371Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:44.460Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4bf"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】113年下學期滿文研讀班",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013801&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.551Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:20.460Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:47.523Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4c0"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】113年下學期藏文研讀班",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013802&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.579Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:20.979Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:50.650Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4c1"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】「看得見的紅樓夢」特展專題系列講座",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013797&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.606Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:21.488Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:16:58.903Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4c2"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】113年「身心障礙學子樂遊故宮北院」專案 (8/12活動簡章更新)",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04013613&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.634Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:21.989Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:01.711Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e10ebaf0992b25e35e4c3"
+  },
+  "board": "國立故宮博物院",
+  "title": "【北部院區】「策展人陪我看展覽」導覽活動",
+  "link": "https://www.npm.gov.tw/Articles.aspx?sno=04011436&l=1&type=&cat=",
+  "insert_time": {
+    "$date": "2024-10-15T14:51:23.661Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:22.531Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:04.145Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12d9af0992b25e35e4c4"
+  },
+  "board": "天文科學教育館",
+  "title": "113年阿里山野外觀測天文營",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=E1768EE0D479CE2F",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:37.834Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:31.588Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:06.787Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12d9af0992b25e35e4c5"
+  },
+  "board": "天文科學教育館",
+  "title": "113年第二季宇宙尋寶地圖",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=B3C172CC98D95922",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:37.862Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:32.097Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:09.844Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12d9af0992b25e35e4c6"
+  },
+  "board": "天文科學教育館",
+  "title": "天文館本週活動一覽表",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=FE8C340AADD8AF8D",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:37.889Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:32.831Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:17.863Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12d9af0992b25e35e4c7"
+  },
+  "board": "天文科學教育館",
+  "title": "星空下的宇宙紀事【探索火星】",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=42C4D7412C8CC17E",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:37.919Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:33.522Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:20.549Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12d9af0992b25e35e4c8"
+  },
+  "board": "天文科學教育館",
+  "title": "專家演講【歡迎來到《獵星者旅店》！用AI生成專屬你的天文探索故事】",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=79EB70535924CAF8",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:37.949Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:34.027Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:23.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12d9af0992b25e35e4c9"
+  },
+  "board": "天文科學教育館",
+  "title": "（教保專業）幼教天文師資培育",
+  "link": "https://tam.gov.taipei/Active_Content.aspx?n=5937907FE021E3F1&ss=5398EED25A5CFBA5",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:37.976Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:43.682Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:25.974Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4ca"
+  },
+  "board": "天文科學教育館",
+  "title": "親子造彗星【神秘彗星DIY】",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=CECB8E77DB22ABFC",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.005Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:44.201Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:29.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4cb"
+  },
+  "board": "天文科學教育館",
+  "title": "第二觀測室10月週六夜間開放觀賞星體",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=01FC1190D20BE714",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.035Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:44.702Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:37.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4cc"
+  },
+  "board": "天文科學教育館",
+  "title": "113年高屏地區教師天文營",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=0F13B696410E1936",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.063Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:45.443Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:39.722Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4cd"
+  },
+  "board": "天文科學教育館",
+  "title": "113學年度天文館歡樂遊套裝行程",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=D12955B127806BB5",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.091Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:46.304Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:42.751Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4ce"
+  },
+  "board": "天文科學教育館",
+  "title": "天文知能檢測活動",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=98B31ECE1971F0A7",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.120Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:55.637Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:45.214Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4cf"
+  },
+  "board": "天文科學教育館",
+  "title": "教師天文研習",
+  "link": "https://tam.gov.taipei/Active_Content.aspx?n=4E06EC445DFCA788&ss=2B1BB6F245BE8FD6",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.148Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:05:56.241Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:48.247Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4d0"
+  },
+  "board": "天文科學教育館",
+  "title": "「彗星季」系列活動",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=513365D674233FE6",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.175Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:06:11.273Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:55.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4d1"
+  },
+  "board": "天文科學教育館",
+  "title": "113學年度協助學校推廣天文知識計畫",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=19A6415B5CA4A2FC",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.203Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:06:11.839Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:17:58.637Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4d2"
+  },
+  "board": "天文科學教育館",
+  "title": "113年「行動天文館校園趴趴 GO」活動申請",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=F37427C7E0EE6197",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.231Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:06:12.350Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:18:01.694Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4d3"
+  },
+  "board": "天文科學教育館",
+  "title": "愛在星裡—長青談天",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=BB10A6F55A173CB5",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.260Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:06:22.480Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:18:04.089Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e12daaf0992b25e35e4d4"
+  },
+  "board": "天文科學教育館",
+  "title": "我想收到天文館活動訊息通知",
+  "link": "https://tam.gov.taipei/News_Content.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64&s=966E45C7E64983F6",
+  "insert_time": {
+    "$date": "2024-10-15T14:59:38.287Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:06:23.039Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:18:07.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545ad"
+  },
+  "board": "北藝中心",
+  "title": "臺北表演藝術中心《電波試煉》實境解謎",
+  "link": "https://tpac.org.taipei/event/717",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.598Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:22.685Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:18:15.177Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545ae"
+  },
+  "board": "北藝中心",
+  "title": "10月北藝小戲台-週六音樂夜",
+  "link": "https://tpac.org.taipei/event/1059",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.620Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:23.215Z"
+  },
+  "gmail_notify_time": {
+    "$date": "2024-10-16T16:18:18.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545af"
+  },
+  "board": "北藝中心",
+  "title": "北藝人物：德國1970年代「新覺醒運動」與碧娜・鮑許",
+  "link": "https://tpac.org.taipei/event/1069",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.646Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:23.725Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b0"
+  },
+  "board": "北藝中心",
+  "title": "北藝人物：生存的暴烈：穿梭亂世的《春之祭》",
+  "link": "https://tpac.org.taipei/event/1070",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.669Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:24.244Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b1"
+  },
+  "board": "北藝中心",
+  "title": "11月北藝小戲台-週六音樂夜",
+  "link": "https://tpac.org.taipei/event/1060",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.698Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:24.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b2"
+  },
+  "board": "北藝中心",
+  "title": "北藝筆記《落地前六釐米》＋《身為問題兒童的我，從一出生就成為這個美好世界的慢性病》交流會",
+  "link": "https://tpac.org.taipei/event/1074",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.729Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:33.876Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b3"
+  },
+  "board": "北藝中心",
+  "title": "2024 K-Musical Roadshow in Taipei 韓國音樂劇產業論壇與創作者分享會",
+  "link": "https://tpac.org.taipei/event/1079",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.759Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:34.386Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b4"
+  },
+  "board": "北藝中心",
+  "title": "夜遊 >>偶遇彼得的金魚和浪漫",
+  "link": "https://tpac.org.taipei/event/1076",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.784Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:34.920Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b5"
+  },
+  "board": "北藝中心",
+  "title": "12月北藝小戲台—週六音樂夜",
+  "link": "https://tpac.org.taipei/event/1061",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.809Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:35.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b6"
+  },
+  "board": "北藝中心",
+  "title": "北藝筆記：「舞臺細節超展開 - 藝術家帶路」 舞臺導覽",
+  "link": "https://tpac.org.taipei/event/1073",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.835Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:35.975Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1610f8c73a8b12b545b7"
+  },
+  "board": "北藝中心",
+  "title": "北藝筆記「控制狂訓練班：日常物件即興創作」《保麗龍》工作坊",
+  "link": "https://tpac.org.taipei/event/1072",
+  "insert_time": {
+    "$date": "2024-10-15T15:13:20.859Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:13:45.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1679f8c73a8b12b545b8"
+  },
+  "board": "桃園市立美術館",
+  "title": "「靈蛇遊墨：第19屆桃園全國春聯書法比賽」初賽報名",
+  "link": "https://event.culture.tw/mocweb/reg/TMOFA/Detail.init.ctr?actId=40032",
+  "insert_time": {
+    "$date": "2024-10-15T15:15:05.615Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:15:15.104Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1679f8c73a8b12b545b9"
+  },
+  "board": "桃園市立美術館",
+  "title": "2025橫山書法藝術館展覽徵件",
+  "link": "https://event.culture.tw/mocweb/reg/TMOFA/Detail.init.ctr?actId=40010",
+  "insert_time": {
+    "$date": "2024-10-15T15:15:05.653Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:15:15.614Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545ba"
+  },
+  "board": "新北市立圖書館",
+  "title": "【總館】10/26(六)15:00-17:00城市建築美學講座「音樂與建築 」歡迎踴躍參加～",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=ff308a8aeea94a019816e4b1537bbce8",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.382Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:17.066Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545bb"
+  },
+  "board": "新北市立圖書館",
+  "title": "【總館】11/09(六) 生活心性智慧系列講座「炎涼金馬：電影中的人世關懷」 張博凱老師 歡迎踴躍參加～",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=6bc619788d3145ae917b9edf57a15aac",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.411Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:17.582Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545bc"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】113年「在地之聲」台語閱讀推廣活動",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=9afeab889fb44fa182d3ad26e8fd0107",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.440Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:18.080Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545bd"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】113多元文化戲劇《多元新宇宙》巡迴活動，歡迎大家到館來看劇!!",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=6a7e3cb57fdd46fda12f728495a359b8",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.470Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:18.668Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545be"
+  },
+  "board": "新北市立圖書館",
+  "title": "【總館】10/26(六)14:00-16:30教育部113年度〈TaiwanGPS留遊學宣導〉說明會，歡迎踴躍參加！",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=824f5aab10ce4e3280a8fcdad704d7e1",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.497Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:19.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545bf"
+  },
+  "board": "新北市立圖書館",
+  "title": "【三重南區分館】113年11月【影友會】【樂齡影友會】",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=d8228f260504454dad4218d6c5ae5907",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.525Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:28.364Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c0"
+  },
+  "board": "新北市立圖書館",
+  "title": "【五股守讓堂】穿越時空‧美好再現系列活動",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=d79de0afb70042618ba639fd69ac57ae",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.552Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:28.868Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c1"
+  },
+  "board": "新北市立圖書館",
+  "title": "【三重田中分館】113年11月【影友會】",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=21eb8b2316b248dd9d91ee0aefb79d2b",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.580Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:29.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c2"
+  },
+  "board": "新北市立圖書館",
+  "title": "【三重分館】113年11月【影友會】",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=47fd6f3d38994cffb34376775e4077b3",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.608Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:29.930Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c3"
+  },
+  "board": "新北市立圖書館",
+  "title": "【五股守讓堂】11/2(六) 導演王小棣VS一見鍾情VS演員林子熙 (講座地點：總館)",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=9bf0c19f5e3e4d75b18dae1fee2a97c4",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.635Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:30.448Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c4"
+  },
+  "board": "新北市立圖書館",
+  "title": "【五股守讓堂】11/10(日) 與導演王小棣一起「目送一九四九」 (講座地點：總館)",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=b13d2edf2c8e4ae4a88af590b1eae873",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.663Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:39.553Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c5"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】新北市嬰幼兒閱讀起步走~閱讀好康推薦",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=84798c3bb8d6419e93756f9ebd97baa4",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.708Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:40.108Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c6"
+  },
+  "board": "新北市立圖書館",
+  "title": "【貢寮分館】113年10、11月影友會",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=c8656fdbe5fb4143a13dff113eaa969a",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.736Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:40.620Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c7"
+  },
+  "board": "新北市立圖書館",
+  "title": "【貢寮分館】生活哲學主題書展",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=44bced20c30d40f28c7f5293305d72b6",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.764Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:41.120Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c8"
+  },
+  "board": "新北市立圖書館",
+  "title": "【蘆洲分館】113年10-11月「在地之聲」台語閱讀推廣活動",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=57baf03be14a43099f7174854dfc14e6",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.792Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:41.693Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545c9"
+  },
+  "board": "新北市立圖書館",
+  "title": "【永和分館】永和漫畫閱創嘉年華",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=df73fd34bc89481b9d88e89941293ef8",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.819Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:50.759Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545ca"
+  },
+  "board": "新北市立圖書館",
+  "title": "【板橋四維分館】英語戲劇體驗活動，歡迎報名！(10/24場次10/17開放報名)",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=993c4c6f7e084efd995ecd351c71f45b",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.848Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:51.281Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545cb"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新北市立圖書館蘆洲長安分館】113年11月彩虹故事屋",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=ff9f621f13e840eea83b12169f9b93d2",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.875Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:52.548Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545cc"
+  },
+  "board": "新北市立圖書館",
+  "title": "【鶯歌分館】113年11月假日瘋電影",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=c890b80f2fa84daaba04e039cbc43239",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.902Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:53.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545cd"
+  },
+  "board": "新北市立圖書館",
+  "title": "【鶯歌分館】113年11月《主題書展》──輕文學",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=e938d46704c84eda81b22eface3c0304",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.930Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:25:53.617Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545ce"
+  },
+  "board": "新北市立圖書館",
+  "title": "【蘆洲永安圖書閱覽室】113年11月 閱讀書籤－主題書展：探索星座",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=ee9d2c35f83b473b8977371a75e7c9ee",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.958Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:26:17.768Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d4f8c73a8b12b545cf"
+  },
+  "board": "新北市立圖書館",
+  "title": "【三重田中分館】10/26—11/16(六) 14:00-16:00 「3D列印筆，親子玩出好創意」活動",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=ef31db77487240039b63bee5cac9ae7f",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:08.987Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:26:18.276Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d5f8c73a8b12b545d0"
+  },
+  "board": "新北市立圖書館",
+  "title": "【鶯歌分館】113年11月《主題書展》──恐龍酷世界",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=d4ce53c87fcf4c1cb56361f70014949f",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:09.017Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:26:18.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d5f8c73a8b12b545d1"
+  },
+  "board": "新北市立圖書館",
+  "title": "【板橋四維分館】「理財心主張-就要好生活」生活一點靈系列講座活動，歡迎報名參加！（已開放報名）",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=251a56e2f0d34b8188ba8670b9e3a93c",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:09.045Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:26:19.298Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e18d5f8c73a8b12b545d2"
+  },
+  "board": "新北市立圖書館",
+  "title": "【蘆洲仁愛智慧圖書館】113年11月 閱讀書籤－主題書展：台灣作家的兒童小說",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=c9e47c1242d34bc989f1b5956e92e349",
+  "insert_time": {
+    "$date": "2024-10-15T15:25:09.073Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:26:19.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6af8c73a8b12b545d3"
+  },
+  "board": "新北市立圖書館",
+  "title": "【汐止分館】10/19(六)、10/20(日)「台灣天然植物系列講座與手作DIY」，課程時間及內容異動公告",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=2e167672c4d8403382a3472c7d86d064",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:10.862Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:13.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545d4"
+  },
+  "board": "新北市政府",
+  "title": "雙北世界壯年運動會",
+  "link": "https://wmg2025.tw/zh-tw/home",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.800Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:22.226Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545d5"
+  },
+  "board": "新北市政府",
+  "title": "435秋日野趣物語",
+  "link": "https://www.facebook.com/artzone435",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.829Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:22.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545d6"
+  },
+  "board": "新北市政府",
+  "title": "2024 追聲音樂祭",
+  "link": "https://autumnntcam.com/2024",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.857Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:23.238Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545d7"
+  },
+  "board": "新北市政府",
+  "title": "泰山獅王文化節",
+  "link": "https://www.facebook.com/taishanlionking/?locale=zh_TW",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.885Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:23.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545d8"
+  },
+  "board": "新北市政府",
+  "title": "社造30世代進行式-新北社造展 從鄰到一",
+  "link": "https://reurl.cc/93LkYj",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.913Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:24.944Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545d9"
+  },
+  "board": "新北市政府",
+  "title": "2024臺灣國際陶藝雙年展",
+  "link": "https://www.facebook.com/YCMuseum",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.941Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:34.625Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545da"
+  },
+  "board": "新北市政府",
+  "title": "2024府中奇幻城",
+  "link": "https://wefuzhong.com.tw/halloween-info.php",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.968Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:35.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b6ff8c73a8b12b545db"
+  },
+  "board": "新北市政府",
+  "title": "2024新北市眷村文化節",
+  "link": "https://xn--2024-ok0gf976q9xnqka62lez1dfnl.tw/",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:15.996Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:35.663Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b70f8c73a8b12b545dc"
+  },
+  "board": "新北市政府",
+  "title": "2024淡水藝術嘉年華",
+  "link": "https://www.facebook.com/p/%E6%B7%A1%E6%B0%B4%E8%97%9D%E8%A1%93%E5%98%89%E5%B9%B4%E8%8F%AF-61550100696411/",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:16.049Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:36.229Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b70f8c73a8b12b545dd"
+  },
+  "board": "新北市政府",
+  "title": "99國民體育日【新北肌動計畫 X 喬山Strong】",
+  "link": "https://sites.google.com/view/sports99ntpc",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:16.076Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:36.723Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b70f8c73a8b12b545de"
+  },
+  "board": "新北市政府",
+  "title": "新北市美術館「體育課」展覽",
+  "link": "https://ntcart.museum/exhibition/H2404001",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:16.103Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:46.004Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b70f8c73a8b12b545df"
+  },
+  "board": "新北市政府",
+  "title": "龍躍文資-新北傳統工藝暨新店十四張城市記憶特展",
+  "link": "https://www.culture.ntpc.gov.tw/xceventsnews/cont?xsmsid=0G295700334178642420&qcat=0G336743893825971626&sid=0M230584568630361810",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:16.130Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:46.538Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b70f8c73a8b12b545e0"
+  },
+  "board": "新北市政府",
+  "title": "新北市通過ICF全面認證",
+  "link": "https://smartcity.ntpc.gov.tw/home.jsp?id=539cf4c866b6c711&act=be4f48068b2b0031&dataserno=38298a5ca4f91f78df8a85e156043dec",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:16.161Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:47.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1b70f8c73a8b12b545e1"
+  },
+  "board": "新北市政府",
+  "title": "NewTaiPAY 開放全國特約商店線上申請",
+  "link": "https://newtaipay.store.ntpc.gov.tw/",
+  "insert_time": {
+    "$date": "2024-10-15T15:36:16.188Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:36:47.667Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1db3f8c73a8b12b545e2"
+  },
+  "board": "兒童藝術教育中心",
+  "title": "團體預約導覽｜「空間的一堂課：點線面」",
+  "link": "https://www.tfam.museum/kid/Event/Event.aspx?ContentID=60",
+  "insert_time": {
+    "$date": "2024-10-15T15:45:55.326Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:46:01.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1db3f8c73a8b12b545e3"
+  },
+  "board": "兒童藝術教育中心",
+  "title": "定時導覽｜「空間的一堂課：點線面」",
+  "link": "https://www.tfam.museum/kid/Event/Event.aspx?ContentID=67",
+  "insert_time": {
+    "$date": "2024-10-15T15:45:55.353Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:46:01.676Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1db3f8c73a8b12b545e4"
+  },
+  "board": "兒童藝術教育中心",
+  "title": "「帶著形狀去跳舞」工作坊",
+  "link": "https://www.tfam.museum/kid/Event/Event.aspx?ContentID=98",
+  "insert_time": {
+    "$date": "2024-10-15T15:45:55.382Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:46:02.177Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1db3f8c73a8b12b545e5"
+  },
+  "board": "兒童藝術教育中心",
+  "title": "無障礙專場｜「大小空間裡聲音探險」工作坊",
+  "link": "https://www.tfam.museum/kid/Event/Event.aspx?ContentID=98",
+  "insert_time": {
+    "$date": "2024-10-15T15:45:55.409Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:46:02.695Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1db3f8c73a8b12b545e6"
+  },
+  "board": "兒童藝術教育中心",
+  "title": "「大小空間裡聲音探險」工作坊",
+  "link": "https://www.tfam.museum/kid/Event/Event.aspx?ContentID=98",
+  "insert_time": {
+    "$date": "2024-10-15T15:45:55.436Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:46:03.401Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e1db3f8c73a8b12b545e7"
+  },
+  "board": "兒童藝術教育中心",
+  "title": "兒藝中心志工招募",
+  "link": "https://www.tfam.museum/kid/Event/Event.aspx?ContentID=",
+  "insert_time": {
+    "$date": "2024-10-15T15:45:55.464Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T15:46:12.698Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e216ff8c73a8b12b545fe"
+  },
+  "board": "新北PAY",
+  "title": "獎勵已領完",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-2",
+  "insert_time": {
+    "$date": "2024-10-15T16:01:51.988Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:08:42.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0cc"
+  },
+  "board": "台北市立圖書館",
+  "title": "天母分館於10月24日播放性別平等電影《為巴比祈禱》，歡迎熱愛電影欣賞及關注性別議題的朋友參加！",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=E4615D817367EB69",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.148Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:08:42.839Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0cd"
+  },
+  "board": "台北市立圖書館",
+  "title": "「漂北愛 Eat：食刻‧悅讀」主題書展",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=3F39D631EE6B854E",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.182Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:08:52.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0ce"
+  },
+  "board": "台北市立圖書館",
+  "title": "【東湖分館】數位新知小學堂：AI生活知識家",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=54D0A63CCB196428",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.221Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:08:52.748Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0cf"
+  },
+  "board": "台北市立圖書館",
+  "title": "葫蘆堵分館假日電影院113年11月節目表",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=D7D3BFC47BDF3A2E",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.254Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:08:53.275Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d0"
+  },
+  "board": "台北市立圖書館",
+  "title": "內湖分館10月「Fun電影」活動",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=37EC436D82C9744A",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.285Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:08:53.785Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d1"
+  },
+  "board": "台北市立圖書館",
+  "title": "景新分館「國文課以外的那些故事」館藏特色書展",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=ED7782DC60FAF768",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.337Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:08:54.310Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d2"
+  },
+  "board": "台北市立圖書館",
+  "title": "景美分館10月Fun輕鬆電影院「萬聖Party Night」",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=2AB2BABAA711BBC4",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.368Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:03.716Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d3"
+  },
+  "board": "台北市立圖書館",
+  "title": "長安分館10/26(六)林老師說故事特別活動~萬聖驚喜派對！",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=4BBE4D277FE81E06",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.403Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:04.272Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d4"
+  },
+  "board": "台北市立圖書館",
+  "title": "道藩分館「以文論武話江湖」線上系列講座─10/19（六）14:00-16:00俠以武犯禁：武俠文學的起源與流變",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=3C02FE941093A676",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.439Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:04.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d5"
+  },
+  "board": "台北市立圖書館",
+  "title": "恭喜「小博士知識的多重宇宙」活動7-9月季季抽獎幸運小博士獲得「Qman啟蒙積木-寶可夢盆栽系列積木:妙蛙種子」!",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=07ECE617E2FC99BD",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.478Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:05.343Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d6"
+  },
+  "board": "台北市立圖書館",
+  "title": "萬聖節圖書館幽靈闖關記",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=72B2C202B91F30CF",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.513Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:06.711Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d7"
+  },
+  "board": "台北市立圖書館",
+  "title": "11月16日(六) 舊莊分館「芳香按摩～日常紓壓身體保養」講座，歡迎參加！",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=46B845502430E6A8",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.555Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:16.017Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d8"
+  },
+  "board": "台北市立圖書館",
+  "title": "長安分館英語說故事11月主題活動「Animal Rescue 拯救動物」",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=0FBFB407DAA20DD4",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.590Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:16.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0d9"
+  },
+  "board": "台北市立圖書館",
+  "title": "王貫英先生紀念圖書館「自我健康催眠，讓你睡好眠」講座活動歡迎參加",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=8F0E4AE6F100D409",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.634Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:17.148Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0da"
+  },
+  "board": "台北市立圖書館",
+  "title": "民生分館「週日來FUN電」歡迎蒞臨觀賞",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=F12EA5156FDBB0E4",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.670Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:17.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0db"
+  },
+  "board": "台北市立圖書館",
+  "title": "文山分館「文山親子電影院」10月節目表",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=0E615F86649193A7",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.711Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:18.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0dc"
+  },
+  "board": "台北市立圖書館",
+  "title": "文山分館【樂來越愛】視聽資料展，視覺和聽覺都是滿滿享受!",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=8EE6FAAC54D02B6C",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.748Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:27.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0dd"
+  },
+  "board": "台北市立圖書館",
+  "title": "長安分館「探索心靈光譜」心理健康主題書展，歡迎借閱！",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=7C01A626FBF373A9",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.787Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:28.311Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0de"
+  },
+  "board": "台北市立圖書館",
+  "title": "長安分館「偵探推理動動腦」主題書展，歡迎借閱！",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=E63E60D5CB096D45",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.820Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:28.824Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e22fe4558f48aaee5a0df"
+  },
+  "board": "台北市立圖書館",
+  "title": "萬芳民眾閱覽室【整理收納˙一次搞定！】主題書展",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=A506675FFE39E805",
+  "insert_time": {
+    "$date": "2024-10-15T16:08:30.863Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:09:43.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e24c34558f48aaee5a0f0"
+  },
+  "board": "新北PAY",
+  "title": "系統公告",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-71",
+  "insert_time": {
+    "$date": "2024-10-15T16:16:03.096Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-15T16:16:09.106Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a106"
+  },
+  "board": "新北PAY",
+  "title": "雲端發票e起來 新北行動支付抽大獎!",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-70",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.624Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:31.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a107"
+  },
+  "board": "新北PAY",
+  "title": "2024鶯歌嘉年華 秋遊樂陶陶-陶瓷老街",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-68",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.645Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:48.467Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a108"
+  },
+  "board": "新北PAY",
+  "title": "2024鶯歌嘉年華 秋遊樂陶陶-南雅商圈",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-67",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.664Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:38.151Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a109"
+  },
+  "board": "新北PAY",
+  "title": "少年拍-Video Format of You",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-66",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.685Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:38.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a10a"
+  },
+  "board": "新北PAY",
+  "title": "八里左岸渡輪導覽體驗",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-65",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.707Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:39.211Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a10b"
+  },
+  "board": "新北PAY",
+  "title": "113年新北市客家義民爺文化祭",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-63",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.727Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:48.972Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a10c"
+  },
+  "board": "新北PAY",
+  "title": "2024龍來深坑度周末",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-61",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.747Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:49.485Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a10d"
+  },
+  "board": "新北PAY",
+  "title": "參加陶瓷博物館參與式預算投票即可抽新北幣",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-59",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.767Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:50.124Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a10e"
+  },
+  "board": "新北PAY",
+  "title": "中秋月圓 情牽林園",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-58",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.790Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:50.654Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a10f"
+  },
+  "board": "新北PAY",
+  "title": "2024新北觀光工廠 青春造一夏",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-55",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.810Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:38:59.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a110"
+  },
+  "board": "新北PAY",
+  "title": "五股心市場 綻放新未來",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-53",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.831Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:00.444Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a111"
+  },
+  "board": "新北PAY",
+  "title": "暢遊新莊廟街-文武雙全十項挑戰大進擊",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-52",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.852Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:00.973Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a112"
+  },
+  "board": "新北PAY",
+  "title": "iPASS MONEY合作活動 - 轉型跨域 共創永續",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-51",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.872Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:01.486Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a113"
+  },
+  "board": "新北PAY",
+  "title": "淡水渡船頭好好生活節-淡水區",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-49",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.893Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:02.005Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a114"
+  },
+  "board": "新北PAY",
+  "title": "HAPPY GO 合作活動 X 智慧消費 用新拚經濟",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-48",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.914Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:11.304Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a115"
+  },
+  "board": "新北PAY",
+  "title": "智慧回收機 x 新北行動支付",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-46",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.934Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:11.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a116"
+  },
+  "board": "新北PAY",
+  "title": "平溪．礦鄉遇見1939!(菁桐)",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-44",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.955Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:12.339Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a117"
+  },
+  "board": "新北PAY",
+  "title": "2024新北市河海音樂季",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-43",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.975Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:12.842Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a14558f48aaee5a118"
+  },
+  "board": "新北PAY",
+  "title": "平溪·礦鄉 遇見1939！(平溪·十分)",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-42",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:45.994Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:13.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a24558f48aaee5a119"
+  },
+  "board": "新北PAY",
+  "title": "2024石碇鱷魚節",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-41",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:46.016Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:32.925Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a24558f48aaee5a11a"
+  },
+  "board": "新北PAY",
+  "title": "2024礦山藝術季",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-39",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:46.038Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:33.485Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e25a24558f48aaee5a11b"
+  },
+  "board": "新北PAY",
+  "title": "2023府中奇幻城-搞怪市集 消費滿額加碼抽",
+  "link": "https://newtaipay.store.ntpc.gov.tw/activity-2",
+  "insert_time": {
+    "$date": "2024-10-15T16:19:46.061Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:34.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2746dc41ec6df998ced0"
+  },
+  "board": "新北市政府觀光旅遊局- 最新消息",
+  "title": "公告「2025新北市平溪天燈節活動」 開放旅行社業者申請國內外旅客參與天燈施放報名表單",
+  "link": "https://newtaipei.travel/zh-tw/news/detail/2857",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:02.363Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:34.725Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2757dc41ec6df998ced1"
+  },
+  "board": "北藝中心",
+  "title": "藝術家領路 >>《回家》途中的風景",
+  "link": "https://tpac.org.taipei/event/1075",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:19.773Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:35.399Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced2"
+  },
+  "board": "新北市立圖書館",
+  "title": "【總館】113年度寶寶愛看書．嬰幼兒故事活動",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=2a54f8a20c0240d1a969ba6ba6ebdc40",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.451Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:44.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced3"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】「全民超閱賽」活動 – 113年9月份得獎名單",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=1d6c721852c547ddad8bdf169dfc2f5c",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.491Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:45.896Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced4"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】新北市嬰幼兒閱讀起步走~閱讀活動推廣",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=a844b9eee64a4e0e9e8d619f46b84863",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.527Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:46.454Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced5"
+  },
+  "board": "新北市立圖書館",
+  "title": "【總館】2024臺灣文學獎金典獎入圍書展",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=a2b527bbf2c24cd0b4eba32f9782b2b4",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.561Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:46.973Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced6"
+  },
+  "board": "新北市立圖書館",
+  "title": "【板橋四維分館】英語戲劇體驗活動，歡迎報名！(10/27場次10/17開放報名)",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=993c4c6f7e084efd995ecd351c71f45b",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.614Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:47.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced7"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新店寶興圖書閱覽室】113年10月主題書展:小時候",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=94c08046e02d4968852734ae8bc0c7b5",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.647Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:56.869Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced8"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新店仁愛圖書閱覽室】113年10月主題書展:小時候",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=95403a00f85f4eaeab70a2a4999f8d6a",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.679Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:57.432Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ced9"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新店龜山圖書閱覽室】113年10月主題書展:小時候",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=ace0a25d78ab42b597ac299f6337f444",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.713Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:57.978Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998ceda"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新店分館】113年10月主題書展:小時候",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=ca27f8018ec14963abe406d109953bfd",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.748Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:58.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998cedb"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新店北新圖書閱覽室】113年10月主題書展:小時候",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=e823ba30037240389b789463d24d0aa8",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.781Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:39:58.992Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f276adc41ec6df998cedc"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新店大鵬圖書閱覽室】113年10月主題書展:小時候",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=5a94efa373d14799a9a70940a7b6b5ac",
+  "insert_time": {
+    "$date": "2024-10-16T10:39:38.818Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:40:08.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2789dc41ec6df998cedd"
+  },
+  "board": "台北市立圖書館",
+  "title": "民生分館林老師說故事「萬聖節我來了！」特別活動",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=25EF088B19BE924B",
+  "insert_time": {
+    "$date": "2024-10-16T10:40:09.609Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:40:17.193Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2789dc41ec6df998cede"
+  },
+  "board": "台北市立圖書館",
+  "title": "建成分館市民生活講座「大稻埕的百年風華與庶民生活故事」",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=3AD826CA3098584F",
+  "insert_time": {
+    "$date": "2024-10-16T10:40:09.641Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:40:17.712Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2789dc41ec6df998cedf"
+  },
+  "board": "台北市立圖書館",
+  "title": "中崙分館「臺漫年代：臺灣漫畫的奇幻旅程」主題書展",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=A073111E70C54BD4",
+  "insert_time": {
+    "$date": "2024-10-16T10:40:09.674Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:40:18.227Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2789dc41ec6df998cee0"
+  },
+  "board": "台北市立圖書館",
+  "title": "動靜雲集.美學共舞-多元藝術美展",
+  "link": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&s=CF309F638F5E6295",
+  "insert_time": {
+    "$date": "2024-10-16T10:40:09.708Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T10:40:18.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c69dc41ec6df998cee1"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "活動期間內購買威豹全系列商品任2件，即可登錄發票抽任天堂Nintendo Switch！",
+  "link": "https://campaign.kingcar.com.tw/powerinnnnn",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:57.912Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:00.562Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c69dc41ec6df998cee2"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "活動期間內購買健酪全系列商品任1件，即可登錄發票抽露營豪禮！",
+  "link": "https://campaign.kingcar.com.tw/yogofreshautumn",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:57.945Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:01.157Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c69dc41ec6df998cee3"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "活動期間內購買金車柏克金單筆滿$369，即可登錄發票抽韓國首爾長榮來回機票!\n週週抽、雙週抽、月月抽，好禮抽不完！",
+  "link": "https://campaign.kingcar.com.tw/202410_11buckskin",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:57.981Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:01.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c6adc41ec6df998cee4"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "購買礦沛任一瓶，登錄發票即可參加抽獎",
+  "link": "https://campaign.kingcar.com.tw/crystalvalleychill",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:58.018Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:02.298Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c6adc41ec6df998cee6"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "活動時間內，買任一件波爾水/茶全系列商品，登錄發票即可參加抽獎！",
+  "link": "https://campaign.kingcar.com.tw/ai_havefun",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:58.092Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:13.141Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c6adc41ec6df998cee7"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "活動期間內於全家便利商店購買伯朗系列商品任2件，即可登錄發票抽機票等好禮!\n(每筆發票限登錄一次，重複登錄將不予計算)",
+  "link": "https://campaign.kingcar.com.tw/mrbrownfm2024",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:58.124Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:13.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c6adc41ec6df998cee8"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "活動期間內購買【奧利多】全系列商品任1件，即可登錄發票抽暢玩好禮！",
+  "link": "https://campaign.kingcar.com.tw/minioligo2024",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:58.156Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:14.163Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c6adc41ec6df998cee9"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "活動期間內購買【茶韻】任1件，即可登錄發票抽「日月潭雲品溫泉酒店」住宿券！",
+  "link": "https://campaign.kingcar.com.tw/formosatea_launchsp",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:58.191Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:14.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2c6adc41ec6df998ceea"
+  },
+  "board": "金車關係事業活動網站",
+  "title": "購買滿鮮全品項(冷凍&冷藏)即可登錄發票抽5000元加菜金",
+  "link": "https://campaign.kingcar.com.tw/2023_easycook",
+  "insert_time": {
+    "$date": "2024-10-16T11:00:58.227Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:01:24.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2cf9e58ea24c3ae28cc8"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】「我家有個新北圖」活動 – 113年9月份得獎名單",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=741729d189e84bbd80fc707958429b0a",
+  "insert_time": {
+    "$date": "2024-10-16T11:03:21.328Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:03:27.888Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f2fd5e58ea24c3ae28cc9"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】「閱讀現在就要 - 想借就這樣點」電子書閱讀活動 – 113年第三季得獎名單",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=2e34f380b7e441bd9c2a25277c2452f8",
+  "insert_time": {
+    "$date": "2024-10-16T11:15:33.154Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:15:35.711Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f32e63f0bdc5103e48b0e"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】「辦證兌兌樂」活動 – 113年7-8月份得獎名單",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=d8cd20f65f92404eb702e07ca3b51f4e",
+  "insert_time": {
+    "$date": "2024-10-16T11:28:38.663Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T11:28:46.189Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f6e253f0bdc5103e48b15"
+  },
+  "board": "新北市立圖書館",
+  "title": "【新店分館】113年11月14日(四)14:00 講座：一機在手 樂趣無窮-智慧手機教學",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=ae021748b90d4f69ab0e506ec352e145",
+  "insert_time": {
+    "$date": "2024-10-16T15:41:25.221Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T15:41:33.296Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f714ff7d08960709e2acd"
+  },
+  "board": "新北市立圖書館",
+  "title": "【全市】「智慧捷書趣」活動 – 113年9月份得獎名單",
+  "link": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=359d8ec53cc04ac9872d4d00f1ae8430",
+  "insert_time": {
+    "$date": "2024-10-16T15:54:55.955Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T15:55:04.083Z"
+  },
+  "gmail_notify_time": null
+},
+{
+  "_id": {
+    "$oid": "670f7154f7d08960709e2ace"
+  },
+  "board": "新北市政府",
+  "title": "2025新北市萬金石馬拉松",
+  "link": "https://wanjinshi-marathon.com.tw/",
+  "insert_time": {
+    "$date": "2024-10-16T15:55:00.873Z"
+  },
+  "chat_id": {
+    "$numberLong": "-1001803259326"
+  },
+  "tg_notify_time": {
+    "$date": "2024-10-16T15:55:04.670Z"
+  },
+  "gmail_notify_time": null
+}]

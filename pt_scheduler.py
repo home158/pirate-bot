@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import re
 import json
 import os
-
+import pt_gmail
 from telegram import Message
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -79,7 +79,7 @@ def ptt_crawler(board):
 
 def telegram_alert_on_new():
     try:
-        records = pt_db.retrieve_updates_after_time()
+        records = pt_db.retrieve_updates_after_time("tg_notify_time")
         msg_template = "<a href='%s'>%s</a>"
 
         for record in records:
@@ -87,13 +87,23 @@ def telegram_alert_on_new():
             result = pt_bot.send(format_msg, record['chat_id'])
 
             if isinstance(result, Message):
-                pt_db.update_tg_notify_time(record['_id'])
+                pt_db.update_notify_time("tg_notify_time",record['_id'])
                 logger.info(f"Notification sent for: {record['title']}")
             else:
                 logger.error(f"Failed to send message for: {record['title']}")
 
     except Exception as e:
-        logger.error(f"Error sending Telegram notifications: {e}")
+        logger.error(f"Error sending Telegram or gmail notifications: {e}")
+def gmail_alert_on_new():
+    try:
+        records = pt_db.retrieve_updates_after_time("gmail_notify_time")
+        msg_template = "<a href='%s'>%s</a>"
+
+        for record in records:
+            format_msg = msg_template % (record['link'], record['title'])
+            pt_gmail.send(record['title'], format_msg)
+    except Exception as e:
+        logger.error(f"Error sending Telegram or gmail notifications: {e}")
 def handle_selenium_errors(func):
     def wrapper(*args, **kwargs):
         try:
