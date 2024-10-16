@@ -40,7 +40,8 @@ def send(subject, message_body):
             server.login(smtp_user, smtp_password)  # 登錄 Gmail 帳號
             server.sendmail(mail_from, mail_to, mail_options.as_string())  # 發送郵件
             logger.info(f"Email sent successfully to {mail_to} with subject: {subject}")
-            pt_db.update_notify_time("gmail_notify_time",record['_id'])
+            return True
 
     except Exception as e:
         logger.error(f"Failed to send email: {str(e)}")
+        return False

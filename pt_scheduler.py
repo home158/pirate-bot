@@ -79,7 +79,8 @@ def ptt_crawler(board):
 
 def telegram_alert_on_new():
     try:
-        records = pt_db.retrieve_updates_after_time("tg_notify_time")
+        tg_only = pt_config.NOTIFY_TG_ONLY.split("|")
+        records = pt_db.retrieve_updates_after_time("tg_notify_time",tg_only)
         msg_template = "<a href='%s'>%s</a>"
 
         for record in records:
@@ -96,12 +97,16 @@ def telegram_alert_on_new():
         logger.error(f"Error sending Telegram or gmail notifications: {e}")
 def gmail_alert_on_new():
     try:
-        records = pt_db.retrieve_updates_after_time("gmail_notify_time")
+        gmail_only = pt_config.NOTIFY_GMAIL_ONLY.split("|")
+
+        records = pt_db.retrieve_updates_after_time("gmail_notify_time",gmail_only)
         msg_template = "<a href='%s'>%s</a>"
 
         for record in records:
             format_msg = msg_template % (record['link'], record['title'])
-            pt_gmail.send(record['title'], format_msg)
+            result = pt_gmail.send(record['title'], format_msg)
+            if result is True:
+                pt_db.update_notify_time("gmail_notify_time",record['_id'])
     except Exception as e:
         logger.error(f"Error sending Telegram or gmail notifications: {e}")
 def handle_selenium_errors(func):

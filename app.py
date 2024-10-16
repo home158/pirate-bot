@@ -5,7 +5,6 @@ import pt_logger  # 導入日誌配置
 import pt_scheduler
 import pt_config
 import pt_bot
-
 # 將 pt_logger.logger 賦值給 logger 變數
 logger = pt_logger.logger
 
@@ -70,8 +69,8 @@ def run_threads():
 
 
 def run_threads_web():  
-    #boards = ["NBA", "Gossiping", "Lifeismoney", "Baseball", "give", "Broad_Band"]
-    boards = []
+    boards = ["NBA", "Lifeismoney", "Baseball", "give", "Broad_Band"]
+    #boards = []
     threads = []
     
     for board in boards:

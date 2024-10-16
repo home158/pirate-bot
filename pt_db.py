@@ -50,10 +50,23 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
         logger.error(f"Error inserting document: {e}")
         return False, current_time
 
-def retrieve_updates_after_time(type):
+def retrieve_updates_after_time(type,board_only):
+    print({
+                type: None,
+                "board": {
+                    "$in": board_only
+                }
+            })
     try:
         # 查詢 tg_notify_time 為 None 的文章
-        documents = website.find({type: None}).limit(pt_config.TELEGRAM_NOTIFY_ONCE_COUNT)
+        documents = website.find(
+            {
+                type: None,
+                "board": {
+                    "$in": board_only
+                }
+            }
+        ).limit(pt_config.TELEGRAM_NOTIFY_ONCE_COUNT)
         json_array = [doc for doc in documents]  # 轉換為 JSON 列表
         
         logger.info(f"Retrieved {len(json_array)} documents for notification.")
