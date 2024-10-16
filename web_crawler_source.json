@@ -1,0 +1,170 @@
+[
+    {
+        "url": "https://www.beclass.com/default.php?name=Search&op=relation&v=UAdQUgA=",
+        "css_selector":
+        [
+            "body > div.container_16 > div:nth-child(3) > div > div > div:nth-child(5) > table > tbody > tr",
+            "a",
+            "a"
+        ],
+        "note": "beclass 台北科教館",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://www.beclass.com/default.php?name=Search&op=relation&v=VQtXWgc=",
+        "css_selector":
+        [
+            "body > div.container_16 > div:nth-child(3) > div > div > div:nth-child(5) > table > tbody > tr",
+            "a",
+            "a"
+        ],
+        "note": "beclass 2024八里城市沙雕展",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://www.beclass.com/default.php?name=Search&op=relation&v=UAZbUgk=",
+        "css_selector":
+        [
+            "body > div.container_16 > div:nth-child(3) > div > div > div:nth-child(5) > table > tbody > tr",
+            "a",
+            "a"
+        ],
+        "note": "beclass NISSAN",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://newtaipei.travel/zh-tw/calendar/list",
+        "css_selector":
+        [
+            "#root > div > div:nth-child(5) > section > div > ul > li",
+            "div > a > div:nth-child(2) > div:nth-child(1)",
+            "div > a"
+        ],
+        "note": "新北市政府觀光旅遊局",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://newtaipei.travel/zh-tw/news/list?sortby=new",
+        "css_selector":
+        [
+            "#root > div > ul > li",
+            "div > a > div:nth-child(2) > div:nth-child(1)",
+            "div > a"
+        ],
+        "note": "新北市政府觀光旅遊局- 最新消息",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://www.npm.gov.tw/Activity-Current.aspx?sno=03000079&l=1",
+        "css_selector":
+        [
+            "#content > section > div > div > div > div > ul.mt-4 > li",
+            "div.card-wrapper > a > div > div > div > h3",
+            "div.card-wrapper > a"
+        ],
+        "note": "國立故宮博物院",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://tpac.org.taipei/event",
+        "css_selector":
+        [    
+            "#wrapper > main > div > div.container > div.event-list__wrap > a",
+            "div.card-event__text > div.card-event__text-top > div.card-event__text-title",
+            "self"
+        ],
+        "note": "北藝中心",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://tam.gov.taipei/News.aspx?n=794B17A953424610&sms=9D72E82EC16F3E64",
+        "css_selector":
+        [
+            "#table_0 > tbody > tr",
+            "td.CCMS_jGridView_td_Class_1 > span > a",
+            "td.CCMS_jGridView_td_Class_1 > span > a"
+        ],
+        "note": "天文科學教育館",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://tmofa.tycg.gov.tw/ch/events/current-events",
+        "css_selector":
+        [
+            "#main > div > a",
+            "figure > figcaption > div",
+            "self"
+        ],
+        "note": "桃園市立美術館",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://www.library.ntpc.gov.tw/multiplehtml/ActvInfo",
+        "css_selector":
+        [
+            "div.application > table > tbody > tr",
+            "td:nth-child(1) > span > a",
+            "td:nth-child(1) > span > a"
+        ],
+        "note": "新北市立圖書館",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://www.ntpc.gov.tw/ch/home.jsp?id=bb5b82db003abf4d",
+        "css_selector":
+        [
+            "#messageform > div.album_list.row > div",
+            "a",
+            "a"
+        ],
+        "note": "新北市政府",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://www.tfam.museum/kid/Event/Event.aspx?ddlLang=zh-tw",
+        "css_selector":
+        [
+            "#EvList > div",
+            "div.text-container h2",
+            "div.text-container > div.tag-container > a"
+        ],
+        "note": "兒童藝術教育中心",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://tpml.gov.taipei/News.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&_CSN=36A0BB334ECB4011",
+        "css_selector":
+        [
+            "#table_0 > tbody > tr",
+            "td.CCMS_jGridView_td_Class_1 > span > a",
+            "td.CCMS_jGridView_td_Class_1 > span > a"
+        ],
+        "note": "台北市立圖書館",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://newtaipay.store.ntpc.gov.tw/activity",
+        "css_selector":
+        [
+            "#__nuxt > div:nth-child(1) > div > div.flex-1 > div:nth-child(2) > div > div > div > a",
+            "div.text-gray-800.p-4.text-lg",
+            "self"
+        ],
+        "note": "新北PAY",
+        "domain": "",
+        "chat_id": -1001803259326
+    }
+]   

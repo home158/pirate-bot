@@ -19,7 +19,7 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
     product_details = {
         'board': board.strip(),
         'title': title.strip(),
-        'link': link.strip(),
+        'link': link,
         'insert_time': current_time,
         'chat_id': chat_id,
         'tg_notify_time': None

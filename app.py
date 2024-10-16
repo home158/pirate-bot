@@ -29,6 +29,13 @@ class PttCrawleFetcherThread(threading.Thread):
                 logger.info(f"Successfully fetched data for board: {self.board_name}")
             except Exception as e:
                 logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
+class WebCrawleFetcherThread(threading.Thread):
+    def run(self) -> None:
+        while True:
+            try:
+                pt_scheduler.web_crawler()
+            except Exception as e:
+                logger.error(f"An error occurred in WebCrawleFetcherThread : {e}")
 
 if __name__ == "__main__":
     if pt_config.TELEGRAM_BOT_MODE == "polling":
@@ -36,14 +43,19 @@ if __name__ == "__main__":
         
         boards = ["NBA", "Gossiping", "Lifeismoney", "Baseball", "give", "Broad_Band"]
         threads = []
-        for board in boards:
-            thread = PttCrawleFetcherThread(board)
-            thread.start()
-            threads.append(thread)  # 儲存線程以便後續操作
-            logger.info(f"Started PttCrawleFetcherThread for board: {board}")
+        #for board in boards:
+        #    thread = PttCrawleFetcherThread(board)
+        #    thread.start()
+        #    threads.append(thread)  # 儲存線程以便後續操作
+        #    logger.info(f"Started PttCrawleFetcherThread for board: {board}")
 
+        TpmlGovTaipei = WebCrawleFetcherThread()
+        TpmlGovTaipei.start()
+        threads.append(TpmlGovTaipei)
+        
         alert_thread = TelegramAlertSchedulerThread()
         alert_thread.start()
+
         logger.info("Started TelegramAlertSchedulerThread.")
         
         pt_bot.application.run_polling()

@@ -8,7 +8,17 @@ import random
 import requests
 from bs4 import BeautifulSoup
 import re
+import json
+import os
+
 from telegram import Message
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -84,3 +94,113 @@ def telegram_alert_on_new():
 
     except Exception as e:
         logger.error(f"Error sending Telegram notifications: {e}")
+def handle_selenium_errors(func):
+    def wrapper(*args, **kwargs):
+        try:
+            return func(*args, **kwargs)
+        except TimeoutException as timeout_err:
+            print(f"Timeout occurred while loading page: {timeout_err}")
+        except NoSuchElementException as no_elem_err:
+            print(f"Element not found: {no_elem_err}")
+        except WebDriverException as driver_err:
+            print(f"WebDriver error occurred: {driver_err}")
+        except ConnectionError as conn_err:
+            print(f"Network connection error occurred: {conn_err}")
+        except Exception as err:
+            print(f"An unexpected error occurred: {err}")
+    return wrapper
+
+def init_driver():
+    chromedriver_executable_path = pt_config.CHROMEDRIVER_EXECUTABLE_PATH
+
+    # 设置无头模式
+    chrome_options = Options()
+    chrome_options.add_argument("--disable-gpu")
+    # 指定 Chrome 可执行文件路径
+    chrome_options.binary_location = pt_config.CHROME_BINARY_PATH
+
+
+    # 启动 Chrome
+    service = Service(executable_path=chromedriver_executable_path)
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    driver.set_window_size(1920,1080)
+
+    return driver
+def read_json_file(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            json_data = json.load(file)
+        return json_data
+    except Exception as e:
+        print(f"Error reading JSON file: {e}")
+        return None
+def take_screenshot(driver, file_name):
+    """保存当前页面截图"""
+    screenshots_dir = 'screenshots'
+    if not os.path.exists(screenshots_dir):
+        os.makedirs(screenshots_dir)  # 创建文件夹存放截图
+
+    file_path = os.path.join(screenshots_dir, f"{file_name}.png")
+    driver.save_screenshot(file_path)
+    print(f"截图已保存到: {file_path}")
+
+@handle_selenium_errors
+def fetch_requests(driver, item):
+    url = item.get('url')
+    note = item.get('note')
+    chat_id = item.get('chat_id')
+    parent_css_selector = item.get("css_selector")[0]
+    child_css_selector = item.get("css_selector")[1]
+    link_css_selector = item.get("css_selector")[2]
+    driver.get(url)
+
+    # Wait for the body element to be present before proceeding
+    time.sleep(3)
+    wait_for_body_to_load(driver)
+    # Find parent elements using the specified CSS selector
+    parent_elements = driver.find_elements(By.CSS_SELECTOR, parent_css_selector)
+
+    # Iterate through the parent elements and retrieve child element information
+    for parent_element in parent_elements:
+        process_parent_element(chat_id, note, parent_element, child_css_selector,link_css_selector)
+
+    take_screenshot(driver, f"{note}")
+
+def wait_for_body_to_load(driver):
+    """Wait until the body element is present in the DOM."""
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.TAG_NAME, 'body'))
+    )
+
+def process_parent_element(chat_id, note, parent_element, child_css_selector,link_css_selector):
+    """Retrieve the text and child element href from the parent element."""
+    try:
+        child_element = parent_element.find_element(By.CSS_SELECTOR, child_css_selector)
+        if link_css_selector == 'self':
+            link_element = parent_element
+        else:
+            link_element = parent_element.find_element(By.CSS_SELECTOR, link_css_selector)
+        title = child_element.text
+        link = link_element.get_attribute('href')
+        print(f"Parent Element Text: {title}")
+        print(f"Child Element Href: {link}")
+        pt_db.insert_to_database(chat_id, note, title, link)
+    except Exception as e:
+        print(f"Error processing parent element: {e}")
+
+def web_crawler():
+        driver = init_driver()
+        try:
+            web_source = read_json_file('web_crawler_source.json')
+            if web_source:
+                # For loop to iterate over the JSON array
+                for item in web_source:
+                    fetch_requests(driver,item)
+
+
+        except Exception as e:
+            # 捕获其他异常
+            print(f"总体处理时发生错误: {e}")
+
+        finally:
+            driver.quit()

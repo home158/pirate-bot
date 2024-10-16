@@ -11,7 +11,9 @@ from telegram.ext import (
     ConversationHandler,
     MessageHandler,
     Application, ContextTypes, filters, CallbackQueryHandler, )
-from telegram import Message 
+import time
+from telegram import Message
+from telegram.error import RetryAfter
 import asyncio
 import inspect
 
@@ -25,15 +27,24 @@ logger = pt_logger.logger
 
 
 def send(msg, chat_id):
-    try:
-        result = bot_event_loop.run_until_complete(application.bot.sendMessage(chat_id=chat_id, text=msg, parse_mode='html'))
-        if isinstance(result, Message):
-            return result
-        else:
-            print("Result is not a Message object:", result)
-    except:
-        logger.error("Send message and catch the exception.", exc_info=True)
-
+    while True:
+        try:
+            # Send the message and wait for the result
+            result = bot_event_loop.run_until_complete(application.bot.sendMessage(chat_id=chat_id, text=msg, parse_mode='html'))
+            if isinstance(result, Message):
+                return result  # Successfully sent, return the message object
+            else:
+                print("Result is not a Message object:", result)
+                break  # Exit if the result is not as expected
+        except RetryAfter as e:
+            # Handle the RetryAfter exception specifically
+            wait_time = e.retry_after  # Get the wait time from the exception
+            logger.warning(f"Flood control exceeded. Retrying in {wait_time} seconds.")
+            time.sleep(wait_time)  # Wait for the specified time before retrying
+        except Exception as e:
+            # Catch all other exceptions
+            logger.error("Send message and caught an exception.", exc_info=True)
+            break  # Exit the loop on unexpected errors
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     message = f'''
