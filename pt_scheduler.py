@@ -301,8 +301,6 @@ def web_ptt_crawler(board):
                 if title not in article_lists:
                     pt_db.insert_to_database(channel_id[board], board, title )
                     article_lists.append(title)
-            
             logger.info(article_lists)
-            logger.info(current_time())
             
 channel_id = read_json_file('tg_channel_id.json')
