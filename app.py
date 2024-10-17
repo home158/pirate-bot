@@ -54,6 +54,18 @@ class WebCrawleFetcherThread(threading.Thread):
                 pt_scheduler.web_crawler()
             except Exception as e:
                 logger.error(f"An error occurred in WebCrawleFetcherThread: {e}")
+class PttTermFetcherThread(threading.Thread):
+    def __init__(self, board_name):
+        super().__init__()
+        self.board_name = board_name
+
+    def run(self) -> None:
+        while True:
+            try:
+                pt_scheduler.web_ptt_crawler(self.board_name)
+                logger.info(f"Successfully fetched data for board: {self.board_name}")
+            except Exception as e:
+                logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
 
 def run_threads():
     logger.info("Starting threads in Gmail mode...")
@@ -68,7 +80,9 @@ def run_threads():
     logger.info("Telegram bot polling started.")
 
 def run_threads_ptt():
-    pt_scheduler.web_ptt_crawler()
+    ptt_thread = PttTermFetcherThread("Baseball")
+    ptt_thread.start()
+    
 
 def run_threads_web():  
     #boards = ["NBA", "Lifeismoney", "Baseball", "give", "Broad_Band"]
@@ -98,8 +112,14 @@ if __name__ == "__main__":
     # 解析命令行參數
     args = parser.parse_args()
 
-    if args.mode == "polling":
-        run_threads()
-    else:
-        #run_threads_web()
-        run_threads_ptt()
+
+
+    # Switch-like structure using a dictionary
+    switch = {
+        "polling": run_threads,
+        "web": run_threads_web,  # Uncomment if needed
+        "ptt": run_threads_ptt
+    }
+
+    # Get the function based on the mode and call it, if the mode is valid
+    switch.get(args.mode, lambda: print("Invalid mode"))()

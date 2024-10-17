@@ -24,22 +24,12 @@ from selenium.webdriver.common.keys import Keys
 
 # 使用 pt_logger 設定日誌
 import pt_logger
-
+channel_id = {}
 logger = pt_logger.logger
-
 def current_time():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 def ptt_crawler(board):
-    channel_id = {
-        "Baseball"      :   "-1002039062910",
-        "NBA"           :   "-1001990819892",
-        "Gossiping"     :   "-1001782918396",
-        "Lifeismoney"   :   "-1001543097185",
-        "give"          :   "-1001776577088",
-        "Test"          :   "-1001724672190",
-        "Broad_Band"    :   "-1001615826339"
-    }
     deny = "公告|協尋"
     allow = {
         "Baseball"      :   "",
@@ -239,18 +229,7 @@ def check_point(driver , row , wishtext):
     else:
         return False
 def extract_labels_and_contents(log_text):
-    """
-    Extracts contents after 'R:' and '□' from log text, ignoring lines
-    containing '[公告]' or '[協尋]'.
-    
-    Args:
-        log_text (str): The input log text to be processed.
-        
-    Returns:
-        list: A list of strings containing the extracted contents.
-    """
-    # Regex pattern to match text after either 'R:' or '□' including the label
-    pattern = r'(R:|□)\s*(.*)'
+    pattern = r'□\s*(.*)'
     
     # Split the log text into lines
     lines = log_text.strip().split('\n')
@@ -269,21 +248,23 @@ def extract_labels_and_contents(log_text):
 
         # Process the matches
         for match in matches:
-            label = match[0]  # 'R:' or '□'
-            content = f"{label} {match[1].strip()}"  # Include label in the content
+            content = match.strip()  # Clean up the matched content
             results.append(content)
 
     return results
-def web_ptt_crawler():
+
+def web_ptt_crawler(board):
+    article_lists = []
+
     print(pt_config.CHROME_BINARY_PATH)
     driver = init_driver()
     driver.get("https://term.ptt.cc/")
     time.sleep(10)
 
     if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
-        keyAndPressEnter(driver , '')
+        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER)
         if check_point(driver, 22 , "請輸入您的密碼:"):
-            keyAndPressEnter(driver , '')
+            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS)
 
     if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
         time.sleep(30)
@@ -291,34 +272,37 @@ def web_ptt_crawler():
     if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
         keyAndPressEnter(driver , 'Y')
 
-    while True:
-        ActionChains(driver).send_keys('q').perform()
+    
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    if check_point(driver, 1 , "【主功能表】"):
+        ActionChains(driver).send_keys('s').perform()
+        ActionChains(driver).send_keys(board).perform()
         time.sleep(1)
-        ActionChains(driver).send_keys('q').perform()
-        time.sleep(1)
-        ActionChains(driver).send_keys('q').perform()
-        time.sleep(1)
-        if check_point(driver, 1 , "【主功能表】"):
-            ActionChains(driver).send_keys('s').perform()
-            keyAndPressEnter(driver , 'Gossiping')
-            if check_point(driver, 24 , "請按任意鍵繼續"):
-                ActionChains(driver).send_keys('q').perform()
-                time.sleep(1)
-            if check_point(driver, 24 , "其它任意鍵停止"):
-                ActionChains(driver).send_keys('q').perform()
-                time.sleep(1)
-            while True:
-                ActionChains(driver).send_keys(Keys.HOME).perform()
-                time.sleep(1)
-                ActionChains(driver).send_keys(Keys.END).perform()
-                time.sleep(3)
-                row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
-                results = extract_labels_and_contents(row_18.text)
-                for content in results:
-                    print(content)
-                print(current_time())
-                    
-
-
-
-    time.sleep(600)
+        ActionChains(driver).send_keys(Keys.ENTER).perform()
+        time.sleep(1)                    
+        if check_point(driver, 24 , "請按任意鍵繼續"):
+            ActionChains(driver).send_keys('q').perform()
+            time.sleep(1)
+        if check_point(driver, 24 , "其它任意鍵停止"):
+            ActionChains(driver).send_keys('q').perform()
+            time.sleep(1)
+        while True:
+            ActionChains(driver).send_keys(Keys.HOME).perform()
+            ActionChains(driver).send_keys(Keys.END).perform()
+            time.sleep(1)
+            row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
+            results = extract_labels_and_contents(row_18.text)
+            for title in results:
+                if title not in article_lists:
+                    pt_db.insert_to_database(channel_id[board], board, title )
+                    article_lists.append(title)
+            
+            logger.info(article_lists)
+            logger.info(current_time())
+            
+channel_id = read_json_file('tg_channel_id.json')
