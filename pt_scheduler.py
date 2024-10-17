@@ -19,6 +19,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException
+from selenium.webdriver import Keys, ActionChains
+from selenium.webdriver.common.keys import Keys
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -131,6 +133,8 @@ def init_driver():
     # 设置无头模式
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+
     # 指定 Chrome 可执行文件路径
     chrome_options.binary_location = pt_config.CHROME_BINARY_PATH
 
@@ -219,3 +223,102 @@ def web_crawler():
 
         finally:
             driver.quit()
+def keyAndPressEnter(driver , key_text):
+    actions = ActionChains(driver)
+    actions.send_keys(key_text).perform()
+    time.sleep(3)
+    actions.send_keys(Keys.ENTER).perform()
+    time.sleep(3)
+
+def check_point(driver , row , wishtext):
+    elem = driver.find_element(By.CSS_SELECTOR, "#mainContainer > span:nth-child("+str(row)+")")
+    logger.info(elem.text)
+
+    if wishtext in elem.text.strip():
+        return True
+    else:
+        return False
+def extract_labels_and_contents(log_text):
+    """
+    Extracts contents after 'R:' and '□' from log text, ignoring lines
+    containing '[公告]' or '[協尋]'.
+    
+    Args:
+        log_text (str): The input log text to be processed.
+        
+    Returns:
+        list: A list of strings containing the extracted contents.
+    """
+    # Regex pattern to match text after either 'R:' or '□' including the label
+    pattern = r'(R:|□)\s*(.*)'
+    
+    # Split the log text into lines
+    lines = log_text.strip().split('\n')
+    
+    # Create a list to store the results
+    results = []
+
+    # Process each line
+    for line in lines:
+        # Check if the line contains [公告] or [協尋]
+        if '[公告]' in line or '[協尋]' in line:
+            continue  # Skip this line
+        
+        # Find matches in the line
+        matches = re.findall(pattern, line)
+
+        # Process the matches
+        for match in matches:
+            label = match[0]  # 'R:' or '□'
+            content = f"{label} {match[1].strip()}"  # Include label in the content
+            results.append(content)
+
+    return results
+def web_ptt_crawler():
+    print(pt_config.CHROME_BINARY_PATH)
+    driver = init_driver()
+    driver.get("https://term.ptt.cc/")
+    time.sleep(10)
+
+    if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
+        keyAndPressEnter(driver , '')
+        if check_point(driver, 22 , "請輸入您的密碼:"):
+            keyAndPressEnter(driver , '')
+
+    if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
+        time.sleep(30)
+
+    if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
+        keyAndPressEnter(driver , 'Y')
+
+    while True:
+        ActionChains(driver).send_keys('q').perform()
+        time.sleep(1)
+        ActionChains(driver).send_keys('q').perform()
+        time.sleep(1)
+        ActionChains(driver).send_keys('q').perform()
+        time.sleep(1)
+        if check_point(driver, 1 , "【主功能表】"):
+            ActionChains(driver).send_keys('s').perform()
+            keyAndPressEnter(driver , 'Gossiping')
+            if check_point(driver, 24 , "請按任意鍵繼續"):
+                ActionChains(driver).send_keys('q').perform()
+                time.sleep(1)
+            if check_point(driver, 24 , "其它任意鍵停止"):
+                ActionChains(driver).send_keys('q').perform()
+                time.sleep(1)
+            while True:
+                ActionChains(driver).send_keys(Keys.HOME).perform()
+                time.sleep(1)
+                ActionChains(driver).send_keys(Keys.END).perform()
+                time.sleep(3)
+                row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
+                results = extract_labels_and_contents(row_18.text)
+                for content in results:
+                    print(content)
+                print(current_time())
+                    
+
+
+
+    time.sleep(600)

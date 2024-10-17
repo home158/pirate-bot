@@ -67,10 +67,12 @@ def run_threads():
     pt_bot.application.run_polling()
     logger.info("Telegram bot polling started.")
 
+def run_threads_ptt():
+    pt_scheduler.web_ptt_crawler()
 
 def run_threads_web():  
-    boards = ["NBA", "Lifeismoney", "Baseball", "give", "Broad_Band"]
-    #boards = []
+    #boards = ["NBA", "Lifeismoney", "Baseball", "give", "Broad_Band"]
+    boards = []
     threads = []
     
     for board in boards:
@@ -99,4 +101,5 @@ if __name__ == "__main__":
     if args.mode == "polling":
         run_threads()
     else:
-        run_threads_web()
+        #run_threads_web()
+        run_threads_ptt()
