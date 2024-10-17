@@ -85,8 +85,8 @@ def run_threads_ptt():
     
 
 def run_threads_web():  
-    #boards = ["NBA", "Lifeismoney", "Baseball", "give", "Broad_Band"]
-    boards = []
+    boards = ["NBA", "Lifeismoney", "Baseball", "give", "Broad_Band"]
+    #boards = []
     threads = []
     
     for board in boards:

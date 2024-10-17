@@ -10,5 +10,11 @@ module.exports = {
     script : "python app.py --mode=polling",
     autorestart: true,
     instances:1
+  },
+  {
+    name   : "term_ptt",
+    script : "python app.py --mode=ptt",
+    autorestart: true,
+    instances:1
   }]
 }

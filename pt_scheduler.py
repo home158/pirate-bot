@@ -256,7 +256,6 @@ def extract_labels_and_contents(log_text):
 def web_ptt_crawler(board):
     article_lists = []
 
-    print(pt_config.CHROME_BINARY_PATH)
     driver = init_driver()
     driver.get("https://term.ptt.cc/")
     time.sleep(10)
