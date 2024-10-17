@@ -24,3 +24,21 @@ NOTIFY_GMAIL_ONLY=beclass 台北科教館|beclass 2024八里城市沙雕展|becl
 NOTIFY_TG_ONLY=NBA|Lifeismoney|give|Broad_Band|Baseball|beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
 
 ```
+
+- 下載舊版chromedriver及chrome的方法
+- 
+
+```text
+先查詢版本號ex:128.0.6613.86
+https://www.chromedriverdownload.com/
+
+找到下載連結取代版本號即可下載舊版
+https://googlechromelabs.github.io/chrome-for-testing/
+
+下載網址連結
+https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.86/win64/chrome-headless-shell-win64.zip
+https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.86/linux64/chrome-headless-shell-linux64.zip
+https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.86/win64/chromedriver-win64.zip
+https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.86/linux64/chromedriver-linux64.zip
+
+```
