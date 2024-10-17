@@ -26,7 +26,6 @@ NOTIFY_TG_ONLY=NBA|Lifeismoney|give|Broad_Band|Baseball|beclass 台北科教館|
 ```
 
 - 下載舊版chromedriver及chrome的方法
-- 
 
 ```text
 先查詢版本號ex:128.0.6613.86
