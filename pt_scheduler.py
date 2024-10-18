@@ -21,6 +21,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException
 from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.common.keys import Keys
+import socket
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -28,6 +29,16 @@ channel_id = {}
 logger = pt_logger.logger
 def current_time():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+def check_internet(host="8.8.8.8", port=53, timeout=1):  # Timeout set to 1 second for fast response
+    try:
+        socket.setdefaulttimeout(timeout)
+        socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((host, port))
+        return True
+    except socket.error as e:
+        logger.error(f"No network: {e}")
+        return False
+
+
 
 def ptt_crawler(board):
     deny = "公告|協尋"
@@ -118,6 +129,7 @@ def handle_selenium_errors(func):
     return wrapper
 
 def init_driver():
+
     chromedriver_executable_path = pt_config.CHROMEDRIVER_EXECUTABLE_PATH
 
     # 设置无头模式
@@ -252,8 +264,15 @@ def extract_labels_and_contents(log_text):
             results.append(content)
 
     return results
+def checkIsOnline(driver):
+    elem = driver.find_element(By.CSS_SELECTOR, "#reactAlert")
+    if "你斷線了" in elem.text.strip():
+        return True
+    else:
+        return False
+@handle_selenium_errors
+def term_ptt_crawler(board):
 
-def web_ptt_crawler(board):
     article_lists = []
 
     driver = init_driver()
@@ -291,6 +310,9 @@ def web_ptt_crawler(board):
             ActionChains(driver).send_keys('q').perform()
             time.sleep(1)
         while True:
+            if checkIsOnline(driver) is True:
+                driver.quit()
+                break
             ActionChains(driver).send_keys(Keys.HOME).perform()
             ActionChains(driver).send_keys(Keys.END).perform()
             time.sleep(1)

@@ -5,6 +5,8 @@ import pt_logger  # 導入日誌配置
 import pt_scheduler
 import pt_config
 import pt_bot
+import socket
+
 # 將 pt_logger.logger 賦值給 logger 變數
 logger = pt_logger.logger
 
@@ -54,7 +56,7 @@ class WebCrawleFetcherThread(threading.Thread):
                 pt_scheduler.web_crawler()
             except Exception as e:
                 logger.error(f"An error occurred in WebCrawleFetcherThread: {e}")
-class PttTermFetcherThread(threading.Thread):
+class termPttFetcherThread(threading.Thread):
     def __init__(self, board_name):
         super().__init__()
         self.board_name = board_name
@@ -62,25 +64,34 @@ class PttTermFetcherThread(threading.Thread):
     def run(self) -> None:
         while True:
             try:
-                pt_scheduler.web_ptt_crawler(self.board_name)
-                logger.info(f"Successfully fetched data for board: {self.board_name}")
+                if pt_scheduler.check_internet() is True:
+                    pt_scheduler.term_ptt_crawler(self.board_name)
+                    logger.info(f"Successfully fetched data for board: {self.board_name}")
+                else:
+                    logger.info(f"No network retry in 60 sec.")
+                    time.sleep(60)
+                    
+
             except Exception as e:
                 logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
 
 def run_threads():
-    logger.info("Starting threads in Gmail mode...")
-    gmail_thread = GmailSendSchedulerThread()
-    gmail_thread.start()
-    logger.info("Gmail bot polling started.")
+
+    #logger.info("Starting threads in Gmail mode...")
+    #gmail_thread = GmailSendSchedulerThread()
+    #gmail_thread.start()
+    #logger.info("Gmail bot polling started.")
+
+
     logger.info("Starting threads in polling mode...")
     alert_thread = TelegramAlertSchedulerThread()
     alert_thread.start()
     logger.info("Started TelegramAlertSchedulerThread.")
-    pt_bot.application.run_polling()
     logger.info("Telegram bot polling started.")
+    pt_bot.application.run_polling()
 
 def run_threads_ptt():
-    ptt_thread = PttTermFetcherThread("Baseball")
+    ptt_thread = termPttFetcherThread("Gossiping")
     ptt_thread.start()
     
 
