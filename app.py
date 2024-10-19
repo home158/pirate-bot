@@ -91,7 +91,7 @@ def run_threads():
     pt_bot.application.run_polling()
 
 def run_threads_ptt():
-    ptt_thread = termPttFetcherThread("Gossiping")
+    ptt_thread = termPttFetcherThread("give")
     ptt_thread.start()
     
 
