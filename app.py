@@ -77,10 +77,10 @@ class termPttFetcherThread(threading.Thread):
 
 def run_threads():
 
-    #logger.info("Starting threads in Gmail mode...")
-    #gmail_thread = GmailSendSchedulerThread()
-    #gmail_thread.start()
-    #logger.info("Gmail bot polling started.")
+    logger.info("Starting threads in Gmail mode...")
+    gmail_thread = GmailSendSchedulerThread()
+    gmail_thread.start()
+    logger.info("Gmail bot polling started.")
 
 
     logger.info("Starting threads in polling mode...")
@@ -96,7 +96,7 @@ def run_threads_ptt():
     
 
 def run_threads_web():  
-    boards = ["NBA", "Lifeismoney", "Baseball", "give", "Broad_Band"]
+    boards = [ "Lifeismoney", "give", "Broad_Band"]
     #boards = []
     threads = []
     
