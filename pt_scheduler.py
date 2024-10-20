@@ -252,7 +252,7 @@ def extract_labels_and_contents(log_text):
     # Process each line
     for line in lines:
         # Check if the line contains [公告] or [協尋]
-        if '[公告]' in line or '[協尋]' in line or '本文已被刪除' in line:
+        if '[公告]' in line or '[協尋]' in line or '本文已被刪除' in line or '洽中' in line or '洽' in line or '勿來信' in line or '送出' in line or '已贈出' in line or '贈出' in line:
             continue  # Skip this line
         
         # Find matches in the line

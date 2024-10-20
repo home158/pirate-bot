@@ -15,6 +15,7 @@ module.exports = {
     name   : "term_ptt",
     script : "python app.py --mode=ptt",
     autorestart: true,
-    instances:1
+    instances:1,
+    cron_restart:'15 * * * *'
   }]
 }
