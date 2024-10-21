@@ -1,0 +1,12 @@
+[
+    {
+        "url": "https://book.tpml.edu.tw/bookDetail/858124/",
+        "css_selector":
+        [
+            "#center > div > div > div.mainrightblock > div > div.book_detaildata > div.bookdata.columnsblock > div.columns_leftblock > div.listdata"
+        ],
+        "note": "國中理化一點都不難",
+        "domain": "",
+        "chat_id": -1001803259326
+    }
+]

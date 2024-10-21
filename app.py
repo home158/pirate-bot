@@ -5,7 +5,6 @@ import pt_logger  # 導入日誌配置
 import pt_scheduler
 import pt_config
 import pt_bot
-import socket
 
 # 將 pt_logger.logger 賦值給 logger 變數
 logger = pt_logger.logger
@@ -75,29 +74,27 @@ class termPttFetcherThread(threading.Thread):
             except Exception as e:
                 logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
 
-def run_threads():
-
+def run_threads_gmail():
     logger.info("Starting threads in Gmail mode...")
     gmail_thread = GmailSendSchedulerThread()
     gmail_thread.start()
     logger.info("Gmail bot polling started.")
 
-
-    logger.info("Starting threads in polling mode...")
+def run_threads_tg():
+    logger.info("Starting threads in telegram notify...")
     alert_thread = TelegramAlertSchedulerThread()
     alert_thread.start()
     logger.info("Started TelegramAlertSchedulerThread.")
-    logger.info("Telegram bot polling started.")
+    logger.info("Telegram bot telegram notify.")
     pt_bot.application.run_polling()
 
 def run_threads_ptt():
-    ptt_thread = termPttFetcherThread("give")
+    ptt_thread = termPttFetcherThread(pt_config.TERM_PTT_BOARD)
     ptt_thread.start()
     
 
-def run_threads_web():  
+def run_threads_webptt():  
     boards = [ "Lifeismoney", "give", "Broad_Band"]
-    #boards = []
     threads = []
     
     for board in boards:
@@ -106,14 +103,21 @@ def run_threads_web():
         threads.append(thread)
         logger.info(f"Started PttCrawleFetcherThread for board: {board}")
 
+
+
+    for thread in threads:
+        thread.join()
+
+
+def run_threads_web():  
+    threads = []
+
     TpmlGovTaipei = WebCrawleFetcherThread()
     TpmlGovTaipei.start()
     threads.append(TpmlGovTaipei)
 
     for thread in threads:
         thread.join()
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Control the flow of the application.")
     
@@ -127,9 +131,11 @@ if __name__ == "__main__":
 
     # Switch-like structure using a dictionary
     switch = {
-        "polling": run_threads,
-        "web": run_threads_web,  # Uncomment if needed
-        "ptt": run_threads_ptt
+        "gmail_notify": run_threads_gmail,
+        "tg_notify": run_threads_tg,
+        "web": run_threads_web,
+        "webptt": run_threads_webptt,
+        "termptt": run_threads_ptt
     }
 
     # Get the function based on the mode and call it, if the mode is valid

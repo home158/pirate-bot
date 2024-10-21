@@ -8,9 +8,9 @@ import random
 import requests
 from bs4 import BeautifulSoup
 import re
-import json
 import os
 import pt_gmail
+import pt_util
 from telegram import Message
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -25,7 +25,7 @@ import socket
 
 # 使用 pt_logger 設定日誌
 import pt_logger
-channel_id = {}
+channel_id = pt_util.read_json_file('./resource/tg_channel_id.json')
 logger = pt_logger.logger
 def current_time():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -147,14 +147,6 @@ def init_driver():
     driver.set_window_size(1920,1080)
 
     return driver
-def read_json_file(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            json_data = json.load(file)
-        return json_data
-    except Exception as e:
-        print(f"Error reading JSON file: {e}")
-        return None
 def take_screenshot(driver, file_name):
     """保存当前页面截图"""
     screenshots_dir = 'screenshots'
@@ -171,19 +163,24 @@ def fetch_requests(driver, item):
     note = item.get('note')
     chat_id = item.get('chat_id')
     parent_css_selector = item.get("css_selector")[0]
-    child_css_selector = item.get("css_selector")[1]
-    link_css_selector = item.get("css_selector")[2]
     driver.get(url)
 
     # Wait for the body element to be present before proceeding
     time.sleep(3)
     wait_for_body_to_load(driver)
-    # Find parent elements using the specified CSS selector
-    parent_elements = driver.find_elements(By.CSS_SELECTOR, parent_css_selector)
 
-    # Iterate through the parent elements and retrieve child element information
-    for parent_element in parent_elements:
-        process_parent_element(chat_id, note, parent_element, child_css_selector,link_css_selector)
+
+    # Find parent elements using the specified CSS selector
+    if len(item.get("css_selector") )> 1 :
+        text_css_selector = item.get("css_selector")[1]
+        link_css_selector = item.get("css_selector")[2]
+        parent_elements = driver.find_elements(By.CSS_SELECTOR, parent_css_selector)
+        # Iterate through the parent elements and retrieve child element information
+        for parent_element in parent_elements:
+            process_parent_element(chat_id, note, parent_element, text_css_selector, link_css_selector)
+    else:
+        parent_element = driver.find_element(By.CSS_SELECTOR, parent_css_selector)
+        pt_db.insert_to_database(chat_id, note, parent_element.text, url)
 
     take_screenshot(driver, f"{note}")
 
@@ -193,18 +190,17 @@ def wait_for_body_to_load(driver):
         EC.presence_of_element_located((By.TAG_NAME, 'body'))
     )
 
-def process_parent_element(chat_id, note, parent_element, child_css_selector,link_css_selector):
+def process_parent_element(chat_id, note, parent_element, text_css_selector,link_css_selector):
     """Retrieve the text and child element href from the parent element."""
     try:
-        child_element = parent_element.find_element(By.CSS_SELECTOR, child_css_selector)
+        child_element = parent_element.find_element(By.CSS_SELECTOR, text_css_selector)
         if link_css_selector == 'self':
             link_element = parent_element
         else:
             link_element = parent_element.find_element(By.CSS_SELECTOR, link_css_selector)
         title = child_element.text
         link = link_element.get_attribute('href')
-        print(f"Parent Element Text: {title}")
-        print(f"Child Element Href: {link}")
+        print(f"Element: {title} {link}")
         pt_db.insert_to_database(chat_id, note, title, link)
     except Exception as e:
         print(f"Error processing parent element: {e}")
@@ -212,7 +208,7 @@ def process_parent_element(chat_id, note, parent_element, child_css_selector,lin
 def web_crawler():
         driver = init_driver()
         try:
-            web_source = read_json_file('web_crawler_source.json')
+            web_source = read_json_file(pt_config.WEB_CRAWLER_SOURCE_PATH)
             if web_source:
                 # For loop to iterate over the JSON array
                 for item in web_source:
@@ -324,4 +320,3 @@ def term_ptt_crawler(board):
                     article_lists.append(title)
             logger.info(article_lists)
             
-channel_id = read_json_file('tg_channel_id.json')

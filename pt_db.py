@@ -41,6 +41,7 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
 
         if existing_document is None:
             result = website.insert_one(product_details)
+            
             logger.info(f"Inserted new document with id: {result.inserted_id}")
             return True, product_details, current_time
         else:
@@ -51,12 +52,6 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
         return False, current_time
 
 def retrieve_updates_after_time(type,board_only):
-    print({
-                type: None,
-                "board": {
-                    "$in": board_only
-                }
-            })
     try:
         # 查詢 tg_notify_time 為 None 的文章
         documents = website.find(
@@ -88,3 +83,34 @@ def update_notify_time(type,_id):
             logger.warning(f"No changes made to the document with _id {_id}.")
     except Exception as e:
         logger.error(f"Error updating document with _id {_id}: {e}")
+
+def delete_old_documents(board='Gossiping', limit=20):
+    """
+    刪除 MongoDB 集合中除了最新 N 筆資料以外的其他資料
+
+    參數:
+    - db_name: 資料庫名稱
+    - collection_name: 集合名稱
+    - field_name: 用於排序的字段名稱，預設為 '_id'
+    - limit: 要保留的最新資料數量，預設為 20
+    - mongo_uri: MongoDB 連線 URI，預設為 'mongodb://localhost:27017/'
+    """
+
+    collection = website
+    field_name='_id'
+    # 查找最新的 limit 筆資料，按 field_name 排序
+    latest_docs = list(collection.find({"board":board}).sort(field_name, -1).limit(limit))
+
+    # 確保資料集不為空
+    if latest_docs:
+        # 取得第 limit 筆（最舊的那筆資料）的 field 值
+        oldest_value = latest_docs[-1][field_name]
+
+        # 刪除所有比這個 field 值還要舊的資料
+        result = collection.delete_many({
+            field_name: {'$lt': oldest_value}
+        })
+
+        print(f"Deleted {result.deleted_count} documents.")
+    else:
+        print("No documents found.")
