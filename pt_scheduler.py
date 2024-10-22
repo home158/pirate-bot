@@ -208,7 +208,7 @@ def process_parent_element(chat_id, note, parent_element, text_css_selector,link
 def web_crawler():
         driver = init_driver()
         try:
-            web_source = read_json_file(pt_config.WEB_CRAWLER_SOURCE_PATH)
+            web_source = pt_util.read_json_file(pt_config.WEB_CRAWLER_SOURCE_PATH)
             if web_source:
                 # For loop to iterate over the JSON array
                 for item in web_source:
