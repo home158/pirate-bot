@@ -22,6 +22,8 @@ from selenium.common.exceptions import TimeoutException, WebDriverException, NoS
 from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.common.keys import Keys
 import socket
+import asyncio
+
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -87,7 +89,7 @@ def telegram_alert_on_new():
         msg_template = "<a href='%s'>%s</a>"
 
         for record in records:
-            format_msg = msg_template % (record['link'], record['title'])
+            format_msg = msg_template % (record['link'], record['title'].replace('<', '').replace('>', ''))
             result = pt_bot.send(format_msg, record['chat_id'])
 
             if isinstance(result, Message):
@@ -156,6 +158,37 @@ def take_screenshot(driver, file_name):
     file_path = os.path.join(screenshots_dir, f"{file_name}.png")
     driver.save_screenshot(file_path)
     print(f"截图已保存到: {file_path}")
+@handle_selenium_errors
+def fetch_facebook_requests(driver, item):
+    url = item.get('url')
+    note = item.get('note')
+    chat_id = item.get('chat_id')
+    asyncio.run(login_facebook(driver, pt_config.FACEBOOK_AUTH_USER ,pt_config.FACEBOOK_AUTH_PASS))
+async def login_facebook(driver, fb_username, fb_userpass):
+    fb_login_url = 'https://mbasic.facebook.com/login'  # FB login page
+    await driver.get(fb_login_url)  # Open the Facebook login page
+    take_screenshot(driver, "FACEBOOK")
+    # Fill in Facebook login information
+    fb_email_ele = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@id="m_login_email"]'))
+    )
+    fb_email_ele.send_keys(fb_username)
+    
+    fb_pass_ele = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@id="password_input_with_placeholder"]/input'))
+    )
+    fb_pass_ele.send_keys(fb_userpass)
+    
+    # Find the login button and click it
+    login_ele = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="login_form"]/ul/li[3]/input'))
+    )
+    login_ele.click()
+    
+    # Wait for an element that appears only after logging in to confirm login was successful
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@id="objects_container"]'))
+    )
 
 @handle_selenium_errors
 def fetch_requests(driver, item):
@@ -204,6 +237,19 @@ def process_parent_element(chat_id, note, parent_element, text_css_selector,link
         pt_db.insert_to_database(chat_id, note, title, link)
     except Exception as e:
         print(f"Error processing parent element: {e}")
+def facebook_crawler():
+    driver = init_driver()
+    try:
+        web_source = pt_util.read_json_file(pt_config.FACEBOOK_CRAWLER_SOURCE_PATH)
+        if web_source:
+            # For loop to iterate over the JSON array
+            for item in web_source:
+                fetch_facebook_requests(driver,item)
+    except Exception as e:
+        # 捕获其他异常
+        print(f"总体处理时发生错误: {e}")
+    finally:
+        driver.quit()
 
 def web_crawler():
         driver = init_driver()
@@ -213,12 +259,9 @@ def web_crawler():
                 # For loop to iterate over the JSON array
                 for item in web_source:
                     fetch_requests(driver,item)
-
-
         except Exception as e:
             # 捕获其他异常
             print(f"总体处理时发生错误: {e}")
-
         finally:
             driver.quit()
 def keyAndPressEnter(driver , key_text):

@@ -47,7 +47,14 @@ class PttCrawleFetcherThread(threading.Thread):
                 logger.info(f"Successfully fetched data for board: {self.board_name}")
             except Exception as e:
                 logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
-                
+class FacebookCrawleFetcherThread(threading.Thread):
+    def run(self) -> None:
+        while True:
+            try:
+                pt_scheduler.facebook_crawler()
+            except Exception as e:
+                logger.error(f"An error occurred in FacebookCrawleFetcherThread: {e}")
+
 class WebCrawleFetcherThread(threading.Thread):
     def run(self) -> None:
         while True:
@@ -108,6 +115,15 @@ def run_threads_webptt():
     for thread in threads:
         thread.join()
 
+def run_threads_facebook():
+    threads = []
+
+    TpmlGovTaipei = FacebookCrawleFetcherThread()
+    TpmlGovTaipei.start()
+    threads.append(TpmlGovTaipei)
+
+    for thread in threads:
+        thread.join()
 
 def run_threads_web():  
     threads = []
@@ -134,6 +150,7 @@ if __name__ == "__main__":
         "gmail_notify": run_threads_gmail,
         "tg_notify": run_threads_tg,
         "web": run_threads_web,
+        "facebook": run_threads_facebook,
         "webptt": run_threads_webptt,
         "termptt": run_threads_ptt
     }
