@@ -101,7 +101,7 @@ def run_threads_ptt():
     
 
 def run_threads_webptt():  
-    boards = [ "Lifeismoney", "Stock", "Broad_Band"]
+    boards = [ "Lifeismoney", "give", "Broad_Band"]
     threads = []
     
     for board in boards:
