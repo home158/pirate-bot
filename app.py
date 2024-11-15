@@ -5,7 +5,7 @@ import pt_logger  # 導入日誌配置
 import pt_scheduler
 import pt_config
 import pt_bot
-
+import pt_util
 # 將 pt_logger.logger 賦值給 logger 變數
 logger = pt_logger.logger
 
@@ -100,8 +100,8 @@ def run_threads_ptt():
     ptt_thread.start()
     
 
-def run_threads_webptt():  
-    boards = [ "Lifeismoney", "give", "Broad_Band"]
+def run_threads_webptt():
+    boards = pt_util.read_json_file(pt_config.WEB_PTT_SOURCE_PATH)
     threads = []
     
     for board in boards:
