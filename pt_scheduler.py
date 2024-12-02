@@ -138,6 +138,7 @@ def init_driver():
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-notifications")
 
     # 指定 Chrome 可执行文件路径
     chrome_options.binary_location = pt_config.CHROME_BINARY_PATH
@@ -158,37 +159,85 @@ def take_screenshot(driver, file_name):
     file_path = os.path.join(screenshots_dir, f"{file_name}.png")
     driver.save_screenshot(file_path)
     print(f"截图已保存到: {file_path}")
+def get_element_by_classname(driver,classname):
+    # 使用多行 JavaScript 代码
+    script = """
+        var elArray = [];
+        var tmp = document.getElementsByTagName("*");
+        var regex = new RegExp(arguments[0]);
+        for ( var i = 0; i < tmp.length; i++ ) {
+            if ( regex.test(tmp[i].className) ) {
+                elArray.push(tmp[i]);
+            }
+        }
+        if(elArray.length > 0)
+            return elArray[0].innerText;
+        else
+            return "";
+    """
+
+    # 执行脚本并返回结果
+    price = driver.execute_script(script,classname)
+    return price
+
 @handle_selenium_errors
-def fetch_facebook_requests(driver, item):
-    url = item.get('url')
-    note = item.get('note')
-    chat_id = item.get('chat_id')
+def fetch_facebook_requests(driver):
+    async def login_facebook(driver, fb_username, fb_userpass):
+        fb_login_url = 'https://mbasic.facebook.com/login'  # FB login page
+        driver.get(fb_login_url)  # Open the Facebook login page
+        take_screenshot(driver, "FACEBOOK")
+        # Fill in Facebook login information
+        fb_email_ele = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, '//*[@id="email"]'))
+        )
+        fb_email_ele.send_keys(fb_username)
+        fb_pass_ele = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@id="pass"]'))
+        )
+        fb_pass_ele.send_keys(fb_userpass)
+
+        # Find the login button and click it
+        login_ele = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, '//*[@id="loginbutton"]'))
+        )
+        login_ele.click()
+        time.sleep(10)
+        take_screenshot(driver, "FACEBOOK")
+        driver.get("https://mbasic.facebook.com/taipeilibrary?v=timeline")
+        time.sleep(5)
+        counter = 0
+        while counter <= 10:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(5)
+            counter += 1
+            take_screenshot(driver, "FACEBOOK_scroll_"+str(counter))
+
+        page_content = driver.page_source
+
+        # 因為要解析的對象是 HTML，所以需指定 html.parser 解析器
+        soup = BeautifulSoup(page_content, 'html.parser')
+        elements = soup.select('.x1yztbdb.x1n2onr6.xh8yej3.x1ja2u2z')
+
+        for element in elements:
+            try:
+                name = element.select('.html-div.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.xexx8yu.x4uap5.x18d9i69.xkhd6sd').text
+                
+                # 👇使用 a 標籤的效果一樣，但 CSS Selector 相比之下長很多
+                # name = element.select('.x1i10hfl.xjbqb8w.x1ejq31n.xd10rxx.x1sy0etr.x17r0tee.x972fbf.xcfux6l.x1qhh985.xm0m39n.x9f619.x1ypdohk.xt0psk2.xe8uvvx.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.xexx8yu.x4uap5.x18d9i69.xkhd6sd.x16tdsg8.x1hl2dhg.xggy1nq.x1a2a7pz.xt0b8zv.xzsf02u.x1s688f span')[0].text
+                print(name)
+            except:
+                continue
+
+
+
     asyncio.run(login_facebook(driver, pt_config.FACEBOOK_AUTH_USER ,pt_config.FACEBOOK_AUTH_PASS))
-async def login_facebook(driver, fb_username, fb_userpass):
-    fb_login_url = 'https://mbasic.facebook.com/login'  # FB login page
-    await driver.get(fb_login_url)  # Open the Facebook login page
-    take_screenshot(driver, "FACEBOOK")
-    # Fill in Facebook login information
-    fb_email_ele = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="m_login_email"]'))
-    )
-    fb_email_ele.send_keys(fb_username)
-    
-    fb_pass_ele = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="password_input_with_placeholder"]/input'))
-    )
-    fb_pass_ele.send_keys(fb_userpass)
-    
-    # Find the login button and click it
-    login_ele = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.XPATH, '//*[@id="login_form"]/ul/li[3]/input'))
-    )
-    login_ele.click()
-    
-    # Wait for an element that appears only after logging in to confirm login was successful
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="objects_container"]'))
-    )
+
+#   
+#   
+#   # Wait for an element that appears only after logging in to confirm login was successful
+#   WebDriverWait(driver, 10).until(
+#       EC.presence_of_element_located((By.XPATH, '//*[@id="objects_container"]'))
+#    )
 
 @handle_selenium_errors
 def fetch_requests(driver, item):
@@ -240,11 +289,12 @@ def process_parent_element(chat_id, note, parent_element, text_css_selector,link
 def facebook_crawler():
     driver = init_driver()
     try:
-        web_source = pt_util.read_json_file(pt_config.FACEBOOK_CRAWLER_SOURCE_PATH)
-        if web_source:
-            # For loop to iterate over the JSON array
-            for item in web_source:
-                fetch_facebook_requests(driver,item)
+        fetch_facebook_requests(driver)
+        #web_source = pt_util.read_json_file(pt_config.FACEBOOK_CRAWLER_SOURCE_PATH)
+        #if web_source:
+        #    # For loop to iterate over the JSON array
+        #    for item in web_source:
+                
     except Exception as e:
         # 捕获其他异常
         print(f"总体处理时发生错误: {e}")

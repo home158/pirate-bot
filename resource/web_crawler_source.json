@@ -1,5 +1,27 @@
 [
     {
+        "url": "https://www.samsung.com/tw/mobile-accessories/10-000mah-battery-pack-beige-eb-p3400xutgtw/",
+        "css_selector":
+        [
+            "#anchorContainer > div.pd-buying-price"
+        ],
+        "note": "三星商城",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
+        "url": "https://www.tfam.museum/kid/Event/Event.aspx?ddlLang=zh-tw",
+        "css_selector":
+        [
+            "#EvList > div",
+            "div.text-container h2",
+            "div.text-container > div.tag-container > a"
+        ],
+        "note": "兒童藝術教育中心",
+        "domain": "",
+        "chat_id": -1001803259326
+    },
+    {
         "url": "https://www.beclass.com/default.php?name=Search&op=relation&v=UAdQUgA=",
         "css_selector":
         [
@@ -131,18 +153,7 @@
         "domain": "",
         "chat_id": -1001803259326
     },
-    {
-        "url": "https://www.tfam.museum/kid/Event/Event.aspx?ddlLang=zh-tw",
-        "css_selector":
-        [
-            "#EvList > div",
-            "div.text-container h2",
-            "div.text-container > div.tag-container > a"
-        ],
-        "note": "兒童藝術教育中心",
-        "domain": "",
-        "chat_id": -1001803259326
-    },
+    
     {
         "url": "https://tpml.gov.taipei/News.aspx?n=3951678DEC0A8461&sms=9D72E82EC16F3E64&_CSN=36A0BB334ECB4011",
         "css_selector":
@@ -168,7 +179,7 @@
         "chat_id": -1001803259326
     },
     {
-        "url": "https://campaign.kingcar.com.tw/",
+        " ": "https://campaign.kingcar.com.tw/",
         "css_selector":
         [
             "#current > ol > li",
