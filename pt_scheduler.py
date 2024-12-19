@@ -345,12 +345,13 @@ def extract_labels_and_contents(log_text):
             continue  # Skip this line
         
         # Find matches in the line
-        matches = re.findall(pattern, line)
+        contents = re.findall(pattern, line)
+        authors = re.findall(r'\d+\s+\+\s+[\d/]*\s+(\S+)', line)
 
         # Process the matches
-        for match in matches:
-            content = match.strip()  # Clean up the matched content
-            results.append(content)
+        for author, content in zip(authors, contents):
+            combind_text = content.strip()+f" ({author})"
+            results.append(combind_text)
 
     return results
 def checkIsOnline(driver):
