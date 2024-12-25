@@ -25,6 +25,14 @@ class TelegramAlertSchedulerThread(threading.Thread):
                 time.sleep(pt_config.TELEGRAM_SEND_MESSAGE_INTERVAL)
             except Exception as e:
                 logger.error(f"An error occurred in TelegramAlertSchedulerThread: {e}")
+class PttMailSchedulerThread(threading.Thread):
+    def run(self) -> None:
+        while True:
+            try:
+                pt_scheduler.pttmail_on_new()
+                time.sleep(pt_config.PTT_MAIL_MESSAGE_INTERVAL)
+            except Exception as e:
+                logger.error(f"An error occurred in PttMailSchedulerThread: {e}")
 
 class GmailSendSchedulerThread(threading.Thread):
     def run(self) -> None:
@@ -80,6 +88,12 @@ class termPttFetcherThread(threading.Thread):
 
             except Exception as e:
                 logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
+def run_threads_pttmail():
+    #pt_scheduler.pttmail_on_new()    
+    logger.info("Starting threads in ptt mail mode...")
+    gmail_thread = PttMailSchedulerThread()
+    gmail_thread.start()
+    logger.info("ptt mail bot polling started.")
 
 def run_threads_gmail():
     logger.info("Starting threads in Gmail mode...")
@@ -96,8 +110,10 @@ def run_threads_tg():
     pt_bot.application.run_polling()
 
 def run_threads_ptt():
+    #pt_scheduler.term_ptt_crawler(pt_config.TERM_PTT_BOARD)    
     ptt_thread = termPttFetcherThread(pt_config.TERM_PTT_BOARD)
     ptt_thread.start()
+    
     
 
 def run_threads_webptt():
@@ -147,6 +163,7 @@ if __name__ == "__main__":
 
     # Switch-like structure using a dictionary
     switch = {
+        "pttmail_notify": run_threads_pttmail,
         "gmail_notify": run_threads_gmail,
         "tg_notify": run_threads_tg,
         "web": run_threads_web,

@@ -22,15 +22,19 @@ GMAIL_AUTH_PASS="{replace_me}"
 GMAIL_MAIL_TO="{replace_me}"
 PTT_AUTH_USER="{replace_me}"
 PTT_AUTH_PASS="{replace_me}"
-NOTIFY_GMAIL_ONLY=beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
-NOTIFY_TG_ONLY=NBA|Lifeismoney|give|Broad_Band|Baseball|beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
 _NOTIFY_GMAIL_ONLY=beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
 _NOTIFY_TG_ONLY=NBA|Lifeismoney|give|Broad_Band|Baseball|beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
-NOTIFY_TG_ONLY=Gossiping
-NOTIFY_GMAIL_ONLY=
-WEB_CRAWLER_SOURCE_PATH = '.\\resource\\web_crawler_source_test.json'
-TERM_PTT_BOARD=Gossiping
-
+NOTIFY_TG_ONLY=Stock|Lifeismoney
+NOTIFY_GMAIL_ONLY=冬至湯圓親子手作活動|beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
+WEB_CRAWLER_SOURCE_PATH = '.\\resource\\web_crawler_source.json'
+_TERM_PTT_BOARD=Test
+TERM_PTT_BOARD=Broad_Band
+FACEBOOK_CRAWLER_SOURCE_PATH='.\\resource\\facebook_crawler_source.json'
+FACEBOOK_AUTH_USER='{replace_me}'
+FACEBOOK_AUTH_PASS='{replace_me}'
+WEB_PTT_SOURCE_PATH='.\\resource\\web_ptt.json'
+PTTMAIL_KEYWORDS_ONLY='測試|簽名|周杰倫|初音'
+PTTMAIL_KINGNET_MSG = "大大您好，\n在版上看到您在徵求"
 ```
 
 - 下載舊版chromedriver及chrome的方法

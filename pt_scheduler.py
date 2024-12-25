@@ -23,7 +23,7 @@ from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.common.keys import Keys
 import socket
 import asyncio
-
+import pyperclip
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -100,6 +100,17 @@ def telegram_alert_on_new():
 
     except Exception as e:
         logger.error(f"Error sending Telegram or gmail notifications: {e}")
+def pttmail_on_new():
+    try:
+        keywords = pt_config.PTTMAIL_KEYWORDS_ONLY.split("|")
+        print(keywords)
+        records = pt_db.retrieve_updates_after_time_keywords("pttmail_notify_time",keywords)
+        logger.info(records)
+        if len(records) > 0 :
+            term_ptt_mailer(records)
+    except Exception as e:
+        logger.error(f"Error sending Telegram or gmail notifications: {e}")
+
 def gmail_alert_on_new():
     try:
         gmail_only = pt_config.NOTIFY_GMAIL_ONLY.split("|")
@@ -330,8 +341,8 @@ def check_point(driver , row , wishtext):
     else:
         return False
 def extract_labels_and_contents(log_text):
-    pattern = r'□\s*(.*)'
-    
+    pattern = r'(\d+)\s+.*\s+([^\s]+)\s+([□R:]+)\s*(.*)'
+
     # Split the log text into lines
     lines = log_text.strip().split('\n')
     
@@ -340,18 +351,23 @@ def extract_labels_and_contents(log_text):
 
     # Process each line
     for line in lines:
-        # Check if the line contains [公告] or [協尋]
+
+#        # Check if the line contains [公告] or [協尋]
         if '[公告]' in line or '[協尋]' in line or '本文已被刪除' in line or '洽中' in line or '洽' in line or '勿來信' in line or '送出' in line or '已贈出' in line or '贈出' in line:
             continue  # Skip this line
+        match = re.search(pattern, line)
         
-        # Find matches in the line
-        contents = re.findall(pattern, line)
-        authors = re.findall(r'\d+\s+\+\s+[\d/]*\s+(\S+)', line)
-
-        # Process the matches
-        for author, content in zip(authors, contents):
-            combind_text = content.strip()+f" ({author})"
-            results.append(combind_text)
+        if match:  # 檢查是否匹配成功
+            result = {
+                "id": int(match.group(1)),
+                "author": match.group(2),
+                "content": match.group(4).strip(),  # 將 'R:' 和內容組合起來
+                "title": match.group(4).strip()+f" ({match.group(2)})"
+            }
+            logger.info(result)
+            results.append(result)
+        else:
+            logger.info(f"無法匹配這一行: {line}")  # 可以選擇打印無法匹配的行進行調試
 
     return results
 def checkIsOnline(driver):
@@ -360,6 +376,7 @@ def checkIsOnline(driver):
         return True
     else:
         return False
+
 @handle_selenium_errors
 def term_ptt_crawler(board):
 
@@ -404,13 +421,104 @@ def term_ptt_crawler(board):
                 driver.quit()
                 break
             ActionChains(driver).send_keys(Keys.HOME).perform()
+            time.sleep(1)
             ActionChains(driver).send_keys(Keys.END).perform()
             time.sleep(1)
             row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
             results = extract_labels_and_contents(row_18.text)
-            for title in results:
+
+            for result in results:
+                title = result['title']
                 if title not in article_lists:
-                    pt_db.insert_to_database(channel_id[board], board, title )
+                    pt_db.insert_to_database(
+                        chat_id=channel_id[board], 
+                        board=board, 
+                        title=title,
+                        author=result['author']
+                    )
                     article_lists.append(title)
             logger.info(article_lists)
             
+
+def input_chinese(driver,txt,delay_time = 1):
+    pyperclip.copy(txt)
+    ActionChains(driver).click().key_down(Keys.SHIFT).key_down(Keys.INSERT).key_up(Keys.INSERT).key_up(Keys.SHIFT).perform()
+    time.sleep(delay_time)
+    ActionChains(driver).send_keys(Keys.ENTER).perform()
+
+
+@handle_selenium_errors
+def term_ptt_mailer(records):
+
+
+    driver = init_driver()
+    driver.get("https://term.ptt.cc/")
+    time.sleep(10)
+
+    if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
+        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER)
+        if check_point(driver, 22 , "請輸入您的密碼:"):
+            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS)
+
+    if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
+        time.sleep(30)
+        ActionChains(driver).send_keys('q').perform()
+
+    if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
+        keyAndPressEnter(driver , 'Y')
+
+    keyAndPressEnter(driver , "q")
+
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    if check_point(driver, 1 , "【主功能表】"):
+        ActionChains(driver).send_keys('m').perform()
+        time.sleep(1)
+        ActionChains(driver).send_keys(Keys.ENTER).perform()
+        time.sleep(1)
+    for record in records:
+        if checkIsOnline(driver) is True:
+            driver.quit()
+        if check_point(driver, 1 ,"電子郵件"):
+            ActionChains(driver).send_keys('s').perform()
+            time.sleep(1)
+            ActionChains(driver).send_keys(Keys.ENTER).perform()
+            time.sleep(1)
+
+        if check_point(driver , 1 , "站內寄信"):
+            if check_point(driver , 2 , "請輸入使用者代號"):
+                #ActionChains(driver).send_keys(record['author']).perform()
+                ActionChains(driver).send_keys('idl5185').perform()
+                time.sleep(1)
+                ActionChains(driver).send_keys(Keys.ENTER).perform()
+                time.sleep(1)
+            if check_point(driver , 3 , "主題"):
+                input_chinese(driver,"Re: "+f"{record['title']}",1)
+                main_content = "大大您好，\n在版上看到您在徵求今網老客戶，\n這邊提供我的資料給您，希望有機會被選為\n推薦人，謝謝您！\n\nLine ID:idl0114\n\n地區：新北市\n名字：朱育成\n電話：0902216616\n客戶編號：A114651\n社區：微風小城\n\n或使用以下網址申辦\n(今網官網已預填推薦人部分，已掃毒非釣魚網站，請安心使用)\nhttps://ppt.cc/f3U2kx\n\n"
+                input_chinese(driver,main_content ,1)
+                ActionChains(driver).click().key_down(Keys.CONTROL).key_down('x').key_up('x').key_up(Keys.CONTROL).perform()
+                time.sleep(3)
+
+            if check_point(driver , 1 , "檔案處理"):
+                ActionChains(driver).send_keys(Keys.ENTER).perform()
+                time.sleep(3)
+
+            if check_point(driver , 1 , "請選擇簽名檔"):
+                ActionChains(driver).send_keys(Keys.ENTER).perform()
+                time.sleep(3)
+            
+            if check_point(driver , 23 , "已順利寄出"):
+                pt_db.update_notify_time("pttmail_notify_time",record['_id'])
+                logger.info(f"pttmail sent for: {record['title']}")
+
+                ActionChains(driver).send_keys('y').perform()
+                ActionChains(driver).send_keys(Keys.ENTER).perform()
+                time.sleep(3)
+            if check_point(driver , 24 , "請按任意鍵繼續"):
+                ActionChains(driver).send_keys(Keys.ENTER).perform()
+                time.sleep(3)
+

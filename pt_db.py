@@ -12,7 +12,7 @@ client = MongoClient(pt_config.DB_SERVER)
 db = client.website
 website = db.pirate
 
-def insert_to_database(chat_id=None, board=None, title=None, link=None):
+def insert_to_database(chat_id=None, board=None, title=None, link=None,author=None):
     current_time = datetime.now()
     if title is None:
         logger.info(f"Title is none empty, no insert performed.")
@@ -22,13 +22,15 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
         return False, current_time
     # 準備新文章資料
     product_details = {
+        'author': author,
         'board': board.strip(),
         'title': title.strip(),
         'link': link,
         'insert_time': current_time,
         'chat_id': chat_id,
         'tg_notify_time': None,
-        'gmail_notify_time': None
+        'gmail_notify_time': None,
+        'pttmail_notify_time': None
     }
     
     try:
@@ -50,6 +52,27 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None):
     except Exception as e:
         logger.error(f"Error inserting document: {e}")
         return False, current_time
+def retrieve_updates_after_time_keywords(type,keywords):
+    try:
+        documents = website.find(
+            {
+                type: None,
+                "board": {
+                    "$in": [pt_config.TERM_PTT_BOARD]
+                },
+                "$or": [
+                    {"title": {"$regex": keyword, "$options": "i"}} 
+                    for keyword in keywords
+                ]
+            }
+        ).limit(1)
+        json_array = [doc for doc in documents]  # 轉換為 JSON 列表
+        
+        logger.info(f"Retrieved {len(json_array)} documents for notification.")
+        return json_array
+    except Exception as e:
+        logger.error(f"Error retrieving documents: {e}")
+        return []
 
 def retrieve_updates_after_time(type,board_only):
     try:
