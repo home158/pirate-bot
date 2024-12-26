@@ -31,6 +31,13 @@ apps : [
     autorestart: true,
     instances:1,
     cron_restart:'15 * * * *'
+  },
+  {
+    name   : "pttmail_notify",
+    script : "python app.py --mode=pttmail_notify",
+    autorestart: true,
+    instances:1,
+    cron_restart:'30 * * * *'
   }
 ]
 }
