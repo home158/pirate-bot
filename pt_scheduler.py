@@ -23,7 +23,6 @@ from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.common.keys import Keys
 import socket
 import asyncio
-import pyperclip
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -103,7 +102,7 @@ def telegram_alert_on_new():
 def pttmail_on_new():
     try:
         keywords = pt_config.PTTMAIL_KEYWORDS_ONLY.split("|")
-        print(keywords)
+        logger.info(keywords)
         records = pt_db.retrieve_updates_after_time_keywords("pttmail_notify_time",keywords)
         logger.info(records)
         if len(records) > 0 :
@@ -375,6 +374,7 @@ def checkIsOnline(driver):
     if "你斷線了" in elem.text.strip():
         return True
     else:
+        logger.info("PTT is online")
         return False
 
 @handle_selenium_errors
@@ -385,11 +385,11 @@ def term_ptt_crawler(board):
     driver = init_driver()
     driver.get("https://term.ptt.cc/")
     time.sleep(10)
-
     if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
-        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER)
+        logger.info(pt_config.PTT_AUTH_USER2)
+        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER2)
         if check_point(driver, 22 , "請輸入您的密碼:"):
-            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS)
+            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS2)
 
     if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
         time.sleep(30)
@@ -420,10 +420,14 @@ def term_ptt_crawler(board):
             if checkIsOnline(driver) is True:
                 driver.quit()
                 break
-            ActionChains(driver).send_keys(Keys.HOME).perform()
-            time.sleep(1)
-            ActionChains(driver).send_keys(Keys.END).perform()
-            time.sleep(1)
+            ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
+            time.sleep(2)
+            ActionChains(driver).key_down(Keys.HOME).key_up(Keys.HOME).perform()
+            time.sleep(2)
+            ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
+            time.sleep(2)
+            ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
+            time.sleep(2)
             row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
             results = extract_labels_and_contents(row_18.text)
 
@@ -439,9 +443,25 @@ def term_ptt_crawler(board):
                     article_lists.append(title)
             logger.info(article_lists)
             
+def copyTextToClipboard(driver,text_to_copy):
+    script = """
+        const textArea = document.createElement("textarea");
+        textArea.value = arguments[0];  // 使用 arguments[0] 傳遞變數
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand("copy");
+            console.log("文字已成功複製到剪貼板！");
+        } catch (err) {
+            console.error("無法複製文字：", err);
+        }
+        document.body.removeChild(textArea);
 
-def input_chinese(driver,txt,delay_time = 1):
-    pyperclip.copy(txt)
+    """
+    driver.execute_script(script,text_to_copy)
+
+def input_chinese(driver,text_to_copy,delay_time = 1):
+    copyTextToClipboard(driver,text_to_copy)
     ActionChains(driver).click().key_down(Keys.SHIFT).key_down(Keys.INSERT).key_up(Keys.INSERT).key_up(Keys.SHIFT).perform()
     time.sleep(delay_time)
     ActionChains(driver).send_keys(Keys.ENTER).perform()
@@ -456,6 +476,7 @@ def term_ptt_mailer(records):
     time.sleep(10)
 
     if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
+        logger.info(pt_config.PTT_AUTH_USER)
         keyAndPressEnter(driver , pt_config.PTT_AUTH_USER)
         if check_point(driver, 22 , "請輸入您的密碼:"):
             keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS)
@@ -498,8 +519,7 @@ def term_ptt_mailer(records):
                 time.sleep(1)
             if check_point(driver , 3 , "主題"):
                 input_chinese(driver,"Re: "+f"{record['title']}",1)
-                main_content = "大大您好，\n在版上看到您在徵求今網老客戶，\n這邊提供我的資料給您，希望有機會被選為\n推薦人，謝謝您！\n\nLine ID:idl0114\n\n地區：新北市\n名字：朱育成\n電話：0902216616\n客戶編號：A114651\n社區：微風小城\n\n或使用以下網址申辦\n(今網官網已預填推薦人部分，已掃毒非釣魚網站，請安心使用)\nhttps://ppt.cc/f3U2kx\n\n"
-                input_chinese(driver,main_content ,1)
+                input_chinese(driver,pt_config.PTTMAIL_KINGNET_MSG ,2)
                 ActionChains(driver).click().key_down(Keys.CONTROL).key_down('x').key_up('x').key_up(Keys.CONTROL).perform()
                 time.sleep(3)
 
@@ -521,4 +541,87 @@ def term_ptt_mailer(records):
             if check_point(driver , 24 , "請按任意鍵繼續"):
                 ActionChains(driver).send_keys(Keys.ENTER).perform()
                 time.sleep(3)
+
+@handle_selenium_errors
+def term_ptt_mailer_inner_loop():
+    driver = init_driver()
+    driver.get("https://term.ptt.cc/")
+    time.sleep(10)
+
+    if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
+        logger.info(pt_config.PTT_AUTH_USER)
+        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER)
+        if check_point(driver, 22 , "請輸入您的密碼:"):
+            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS)
+
+    if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
+        time.sleep(30)
+        ActionChains(driver).send_keys('q').perform()
+
+    if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
+        keyAndPressEnter(driver , 'Y')
+
+    keyAndPressEnter(driver , "q")
+    while True:
+        if checkIsOnline(driver) is True:
+            driver.quit()
+            break
+
+        ActionChains(driver).send_keys('q').perform()
+        time.sleep(1)
+        ActionChains(driver).send_keys('q').perform()
+        time.sleep(1)
+        ActionChains(driver).send_keys('q').perform()
+        time.sleep(1)
+
+        keywords = pt_config.PTTMAIL_KEYWORDS_ONLY.split("|")
+        logger.info(keywords)
+        records = pt_db.retrieve_updates_after_time_keywords("pttmail_notify_time",keywords)
+
+        if len(records) > 0 :
+            if check_point(driver, 1 , "【主功能表】"):
+                ActionChains(driver).send_keys('m').perform()
+                time.sleep(1)
+                ActionChains(driver).send_keys(Keys.ENTER).perform()
+                time.sleep(1)
+            for record in records:
+                if checkIsOnline(driver) is True:
+                    driver.quit()
+                if check_point(driver, 1 ,"電子郵件"):
+                    ActionChains(driver).send_keys('s').perform()
+                    time.sleep(1)
+                    ActionChains(driver).send_keys(Keys.ENTER).perform()
+                    time.sleep(1)
+
+                if check_point(driver , 1 , "站內寄信"):
+                    if check_point(driver , 2 , "請輸入使用者代號"):
+                        #ActionChains(driver).send_keys(record['author']).perform()
+                        ActionChains(driver).send_keys('idl5185').perform()
+                        time.sleep(1)
+                        ActionChains(driver).send_keys(Keys.ENTER).perform()
+                        time.sleep(1)
+                    if check_point(driver , 3 , "主題"):
+                        input_chinese(driver,"Re: "+f"{record['title']}",1)
+                        input_chinese(driver,pt_config.PTTMAIL_KINGNET_MSG ,2)
+                        ActionChains(driver).click().key_down(Keys.CONTROL).key_down('x').key_up('x').key_up(Keys.CONTROL).perform()
+                        time.sleep(3)
+
+                    if check_point(driver , 1 , "檔案處理"):
+                        ActionChains(driver).send_keys(Keys.ENTER).perform()
+                        time.sleep(3)
+
+                    if check_point(driver , 1 , "請選擇簽名檔"):
+                        ActionChains(driver).send_keys(Keys.ENTER).perform()
+                        time.sleep(3)
+                    
+                    if check_point(driver , 23 , "已順利寄出"):
+                        pt_db.update_notify_time("pttmail_notify_time",record['_id'])
+                        logger.info(f"pttmail sent for: {record['title']}")
+
+                        ActionChains(driver).send_keys('y').perform()
+                        ActionChains(driver).send_keys(Keys.ENTER).perform()
+                        time.sleep(3)
+                    if check_point(driver , 24 , "請按任意鍵繼續"):
+                        ActionChains(driver).send_keys(Keys.ENTER).perform()
+                        time.sleep(3)
 
