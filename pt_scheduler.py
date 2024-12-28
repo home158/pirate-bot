@@ -23,6 +23,7 @@ from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.common.keys import Keys
 import socket
 import asyncio
+from selenium.webdriver.remote.webdriver import WebDriver
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -331,14 +332,30 @@ def keyAndPressEnter(driver , key_text):
     actions.send_keys(Keys.ENTER).perform()
     time.sleep(3)
 
-def check_point(driver , row , wishtext):
-    elem = driver.find_element(By.CSS_SELECTOR, "#mainContainer > span:nth-child("+str(row)+")")
-    logger.info(elem.text)
+def check_point(driver: WebDriver, row: int, wishtext: str) -> bool:
+    try:
+        # Wait for the element to be present up to 10 seconds
+        element_selector = f"#mainContainer > span:nth-child({row})"
+        for attempt in range(5):
+            try:
+                elem = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, element_selector))
+                )
+                logger.info(f"Attempt {attempt + 1}: {elem.text}")
 
-    if wishtext in elem.text.strip():
-        return True
-    else:
-        return False
+                # Check if the desired text is in the element's text
+                if wishtext in elem.text.strip():
+                    return True
+            except Exception as e:
+                logger.error(f"Error on attempt {attempt + 1}: {e}")
+            
+            # Retry after 1 second delay
+            time.sleep(1)
+
+    except Exception as e:
+        logger.error(f"Failed to locate element: {e}")
+
+    return False
 def extract_labels_and_contents(log_text):
     pattern = r'(\d+)\s+.*\s+([^\s]+)\s+([□R:]+)\s*(.*)'
 
@@ -350,9 +367,8 @@ def extract_labels_and_contents(log_text):
 
     # Process each line
     for line in lines:
-
 #        # Check if the line contains [公告] or [協尋]
-        if '[公告]' in line or '[協尋]' in line or '本文已被刪除' in line or '洽中' in line or '洽' in line or '勿來信' in line or '送出' in line or '已贈出' in line or '贈出' in line:
+        if '[公告]' in line or '[協尋]' in line or '本文已被吃掉' in line or '本文已被刪除' in line or '洽中' in line or '洽' in line or '勿來信' in line or '送出' in line or '已贈出' in line or '贈出' in line:
             continue  # Skip this line
         match = re.search(pattern, line)
         
@@ -363,8 +379,9 @@ def extract_labels_and_contents(log_text):
                 "content": match.group(4).strip(),  # 將 'R:' 和內容組合起來
                 "title": match.group(4).strip()+f" ({match.group(2)})"
             }
-            logger.info(result)
-            results.append(result)
+            if is_alphanumeric(result['author']):
+                logger.info(result)
+                results.append(result)
         else:
             logger.info(f"無法匹配這一行: {line}")  # 可以選擇打印無法匹配的行進行調試
 
@@ -376,6 +393,31 @@ def checkIsOnline(driver):
     else:
         logger.info("PTT is online")
         return False
+def get_page_article_id(driver):
+    pattern = r'(\d+)\s+.*\s+([^\s]+)\s+([□R:]+)\s*(.*)'
+    try:
+        # Wait for the element to be present up to 10 seconds
+        for attempt in range(5):
+            try:
+                elem = driver.find_element(By.CSS_SELECTOR, "#mainContainer > span:nth-child(4)")
+                line = elem.text.strip()
+                # Check if the desired text is in the element's text
+                match = re.search(pattern, line)
+                id =  int(match.group(1))
+                return id
+            except Exception as e:
+                logger.error(f"Error on attempt {attempt + 1}: {e}")
+            
+            # Retry after 1 second delay
+            time.sleep(1)
+
+    except Exception as e:
+        logger.error(f"Failed to locate element: {e}")
+
+    return False
+
+def is_alphanumeric(text):
+    return bool(re.fullmatch(r'[a-zA-Z0-9]+', text))
 
 @handle_selenium_errors
 def term_ptt_crawler(board):
@@ -420,14 +462,18 @@ def term_ptt_crawler(board):
             if checkIsOnline(driver) is True:
                 driver.quit()
                 break
-            ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
-            time.sleep(2)
+
+            
             ActionChains(driver).key_down(Keys.HOME).key_up(Keys.HOME).perform()
-            time.sleep(2)
-            ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
-            time.sleep(2)
-            ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
-            time.sleep(2)
+            time.sleep(1)
+            article_id = get_page_article_id(driver)
+            logger.info("home目前頁面文章序號: " +str(article_id))
+            if article_id < 21:
+                ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
+                time.sleep(2)
+                article_id = get_page_article_id(driver)
+            logger.info("end目前頁面文章序號: " +str(article_id))
+
             row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
             results = extract_labels_and_contents(row_18.text)
 
