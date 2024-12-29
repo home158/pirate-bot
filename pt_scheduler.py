@@ -380,11 +380,10 @@ def extract_labels_and_contents(log_text):
                 "title": match.group(4).strip()+f" ({match.group(2)})"
             }
             if is_alphanumeric(result['author']):
-                logger.info(result)
                 results.append(result)
         else:
             logger.info(f"無法匹配這一行: {line}")  # 可以選擇打印無法匹配的行進行調試
-
+    logger.info(len(result))
     return results
 def checkIsOnline(driver):
     elem = driver.find_element(By.CSS_SELECTOR, "#reactAlert")
@@ -418,7 +417,12 @@ def get_page_article_id(driver):
 
 def is_alphanumeric(text):
     return bool(re.fullmatch(r'[a-zA-Z0-9]+', text))
-
+def get_channel_id(board):
+    try:
+        return channel_id[board]
+    except KeyError:
+        logger.error(f"Error: The board '{board}' does not exist in the channel_id dictionary.")
+        return None
 @handle_selenium_errors
 def term_ptt_crawler(board):
 
@@ -481,10 +485,10 @@ def term_ptt_crawler(board):
                 title = result['title']
                 if title not in article_lists:
                     pt_db.insert_to_database(
-                        chat_id=channel_id[board], 
-                        board=board, 
-                        title=title,
-                        author=result['author']
+                        chat_id = get_channel_id(board), 
+                        board   = board, 
+                        title   = title,
+                        author  = result['author']
                     )
                     article_lists.append(title)
             logger.info(article_lists)
