@@ -22,8 +22,8 @@ GMAIL_AUTH_PASS="{replace_me}"
 GMAIL_MAIL_TO="{replace_me}"
 PTT_AUTH_USER="{replace_me}"
 PTT_AUTH_PASS="{replace_me}"
-PTT_AUTH_USER2='{replace_me}'
-PTT_AUTH_PASS2='{replace_me}'
+PTTMAIL_AUTH_USER='{replace_me}'
+PTTMAIL_AUTH_PASS='{replace_me}'
 _NOTIFY_GMAIL_ONLY=beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
 _NOTIFY_TG_ONLY=NBA|Lifeismoney|give|Broad_Band|Baseball|beclass 台北科教館|beclass 2024八里城市沙雕展|beclass NISSAN|新北市政府觀光旅遊局|新北市政府觀光旅遊局- 最新消息|國立故宮博物院|北藝中心|天文科學教育館|桃園市立美術館|新北市立圖書館|新北市政府|兒童藝術教育中心|台北市立圖書館|新北PAY|金車關係事業活動網站
 NOTIFY_TG_ONLY=Stock|Lifeismoney
@@ -35,7 +35,9 @@ FACEBOOK_CRAWLER_SOURCE_PATH='.\\resource\\facebook_crawler_source.json'
 FACEBOOK_AUTH_USER='{replace_me}'
 FACEBOOK_AUTH_PASS='{replace_me}'
 WEB_PTT_SOURCE_PATH='.\\resource\\web_ptt.json'
-PTTMAIL_KEYWORDS_ONLY='今網推薦|徵求今網|徵今網推薦人|徵今網業務|徵求一位今網推薦|測試'
+PTTMAIL_SKIP_LINE = '[公告]|[協尋]|本文已被吃掉|本文已被刪除|洽中|洽|勿來信|送出|已贈出|贈出|已完成|已徵得|已徵到|文章選讀|文章標題|看板資訊|看板'
+PTTMAIL_KEYWORDS_ONLY = '測試簽名檔|推薦人今網|推薦今網|今網推薦|徵求今網|徵今網推薦人|徵今網業務|徵求一位今網推薦'
+PTTMAIL_KEYWORDS_DENY = '已完成|完成|已徵得|徵得|已徵到|徵到'
 PTTMAIL_KINGNET_MSG = "大大您好，\n在版上看到您在徵求"
 ```
 

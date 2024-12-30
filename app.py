@@ -29,8 +29,7 @@ class PttMailSchedulerThread(threading.Thread):
     def run(self) -> None:
         while True:
             try:
-                #pt_scheduler.pttmail_on_new()
-                pt_scheduler.term_ptt_mailer_inner_loop()
+                pt_scheduler.term_ptt_mailer()
                 
                 time.sleep(pt_config.PTT_MAIL_MESSAGE_INTERVAL)
             except Exception as e:
@@ -91,7 +90,7 @@ class termPttFetcherThread(threading.Thread):
             except Exception as e:
                 logger.error(f"An error occurred in PttCrawleFetcherThread for {self.board_name}: {e}")
 def run_threads_pttmail():
-    #pt_scheduler.pttmail_on_new()    
+     #pt_scheduler.pttmail_on_new()    
     logger.info("Starting threads in ptt mail mode...")
     gmail_thread = PttMailSchedulerThread()
     gmail_thread.start()

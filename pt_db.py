@@ -4,6 +4,7 @@ from datetime import datetime
 from pymongo import MongoClient
 import pt_config
 import pt_logger  # 引入你配置的日誌系統
+from pprint import pprint
 
 logger = pt_logger.logger
 
@@ -52,6 +53,41 @@ def insert_to_database(chat_id=None, board=None, title=None, link=None,author=No
     except Exception as e:
         logger.error(f"Error inserting document: {e}")
         return False, current_time
+def retrieve_updates_after_time_allow_deny(type,allow_keywords,deny_keywords):
+    try:
+        query = {
+                type: None,
+                "board": {
+                    "$in": [pt_config.TERM_PTT_BOARD]
+                },
+                "$and": [
+                    {  # 符合 PTTMAIL_KEYWORDS_ONLY 的正則條件
+                        "title": {
+                            "$regex": allow_keywords,
+                            "$options": "i"  # 忽略大小寫
+                        }
+                    },
+                    {  # 排除 PTTMAIL_KEYWORDS_DENY 的條件
+                        "title": {
+                            "$not": {
+                                "$regex": deny_keywords,
+                                "$options": "i"  # 忽略大小寫
+                            }
+                        }
+                    }
+                ]
+            }
+        documents = website.find(query).limit(1)
+        pprint(query)
+
+        json_array = [doc for doc in documents]  # 轉換為 JSON 列表
+        
+        logger.info(f"Retrieved {len(json_array)} documents for notification.")
+        return json_array
+    except Exception as e:
+        logger.error(f"Error retrieving documents: {e}")
+        return []
+
 def retrieve_updates_after_time_keywords(type,keywords):
     try:
         documents = website.find(

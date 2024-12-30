@@ -100,16 +100,6 @@ def telegram_alert_on_new():
 
     except Exception as e:
         logger.error(f"Error sending Telegram or gmail notifications: {e}")
-def pttmail_on_new():
-    try:
-        keywords = pt_config.PTTMAIL_KEYWORDS_ONLY.split("|")
-        logger.info(keywords)
-        records = pt_db.retrieve_updates_after_time_keywords("pttmail_notify_time",keywords)
-        logger.info(records)
-        if len(records) > 0 :
-            term_ptt_mailer(records)
-    except Exception as e:
-        logger.error(f"Error sending Telegram or gmail notifications: {e}")
 
 def gmail_alert_on_new():
     try:
@@ -368,7 +358,7 @@ def extract_labels_and_contents(log_text):
     # Process each line
     for line in lines:
 #        # Check if the line contains [公告] or [協尋]
-        if '[公告]' in line or '[協尋]' in line or '本文已被吃掉' in line or '本文已被刪除' in line or '洽中' in line or '洽' in line or '勿來信' in line or '送出' in line or '已贈出' in line or '贈出' in line:
+        if skip_line(line):
             continue  # Skip this line
         match = re.search(pattern, line)
         
@@ -379,8 +369,11 @@ def extract_labels_and_contents(log_text):
                 "content": match.group(4).strip(),  # 將 'R:' 和內容組合起來
                 "title": match.group(4).strip()+f" ({match.group(2)})"
             }
-            if is_alphanumeric(result['author']):
+            if is_alphanumeric(result['author']) and validate_string(result['title']):
                 results.append(result)
+            else:
+                logger.info(f"allow_deny這一行: {result['title']}")
+
         else:
             logger.info(f"無法匹配這一行: {line}")  # 可以選擇打印無法匹配的行進行調試
     logger.info(len(result))
@@ -392,6 +385,34 @@ def checkIsOnline(driver):
     else:
         logger.info("PTT is online")
         return False
+@handle_selenium_errors
+def term_ptt_login_process(user,passwd):
+    driver = init_driver()
+    driver.get("https://term.ptt.cc/")
+    if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
+        logger.info(pt_config.PTT_AUTH_USER)
+        keyAndPressEnter(driver , user)
+        if check_point(driver, 22 , "請輸入您的密碼:"):
+            keyAndPressEnter(driver , passwd )
+
+    if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
+        time.sleep(30)
+
+    if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
+        keyAndPressEnter(driver , 'Y')
+
+    if check_point(driver, 21 , "歡迎您再度拜訪，上次您是從"):
+        ActionChains(driver).send_keys('q').perform()
+
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+    ActionChains(driver).send_keys('q').perform()
+    time.sleep(1)
+
+    return driver
+    
 def get_page_article_id(driver):
     pattern = r'(\d+)\s+.*\s+([^\s]+)\s+([□R:]+)\s*(.*)'
     try:
@@ -414,6 +435,18 @@ def get_page_article_id(driver):
         logger.error(f"Failed to locate element: {e}")
 
     return False
+def pttmail_on_new():
+    try:
+        allow_keywords = pt_config.PTTMAIL_KEYWORDS_ONLY
+        deny_keywords = pt_config.PTTMAIL_KEYWORDS_DENY
+        logger.info(allow_keywords)
+        logger.info(deny_keywords)
+        records = pt_db.retrieve_updates_after_time_allow_deny("pttmail_notify_time",allow_keywords,deny_keywords)
+        logger.info(records)
+        if len(records) > 0 :
+            term_ptt_mailer()
+    except Exception as e:
+        logger.error(f"Error sending Telegram or gmail notifications: {e}")
 
 def is_alphanumeric(text):
     return bool(re.fullmatch(r'[a-zA-Z0-9]+', text))
@@ -425,31 +458,9 @@ def get_channel_id(board):
         return None
 @handle_selenium_errors
 def term_ptt_crawler(board):
-
     article_lists = []
+    driver = term_ptt_login_process(pt_config.PTT_AUTH_USER,pt_config.PTT_AUTH_PASS)
 
-    driver = init_driver()
-    driver.get("https://term.ptt.cc/")
-    time.sleep(10)
-    if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
-        logger.info(pt_config.PTT_AUTH_USER2)
-        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER2)
-        if check_point(driver, 22 , "請輸入您的密碼:"):
-            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS2)
-
-    if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
-        time.sleep(30)
-
-    if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
-        keyAndPressEnter(driver , 'Y')
-
-    
-    ActionChains(driver).send_keys('q').perform()
-    time.sleep(1)
-    ActionChains(driver).send_keys('q').perform()
-    time.sleep(1)
-    ActionChains(driver).send_keys('q').perform()
-    time.sleep(1)
     if check_point(driver, 1 , "【主功能表】"):
         ActionChains(driver).send_keys('s').perform()
         ActionChains(driver).send_keys(board).perform()
@@ -467,16 +478,24 @@ def term_ptt_crawler(board):
                 driver.quit()
                 break
 
+
             
             ActionChains(driver).key_down(Keys.HOME).key_up(Keys.HOME).perform()
-            time.sleep(1)
+            time.sleep(3)
             article_id = get_page_article_id(driver)
-            logger.info("home目前頁面文章序號: " +str(article_id))
-            if article_id < 21:
-                ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
-                time.sleep(2)
-                article_id = get_page_article_id(driver)
-            logger.info("end目前頁面文章序號: " +str(article_id))
+            logger.info(f"HOME目前頁面{board}文章序號: {str(article_id)}")
+
+            if article_id > 20:
+                print("印到不是第一頁，重新執行")
+                continue
+
+            ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
+            time.sleep(5)
+            article_id = get_page_article_id(driver)
+            logger.info(f"END 目前頁面{board}文章序號: {str(article_id)}")
+            if article_id < 20:
+                print("印到第一頁，重新執行")
+                continue
 
             row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
             results = extract_labels_and_contents(row_18.text)
@@ -509,6 +528,26 @@ def copyTextToClipboard(driver,text_to_copy):
 
     """
     driver.execute_script(script,text_to_copy)
+def skip_line(input_string):
+    cleaned_string = re.sub(r'\s+', '', input_string)
+    only_match = re.search(pt_config.PTTMAIL_SKIP_LINE, cleaned_string)
+    if only_match:
+        return True
+    return False
+
+def validate_string(input_string):
+    # 移除字串中所有的空白（包括前後及中間）
+    cleaned_string = re.sub(r'\s+', '', input_string)
+
+    # 檢查是否符合關鍵字 ONLY
+    only_match = re.search(pt_config.PTTMAIL_KEYWORDS_ONLY, cleaned_string)
+    # 檢查是否包含排除關鍵字 DENY
+    deny_match = re.search(pt_config.PTTMAIL_KEYWORDS_DENY, cleaned_string)
+    
+    # 如果符合 ONLY 且不包含 DENY，返回 True
+    if only_match and not deny_match:
+        return True
+    return False
 
 def input_chinese(driver,text_to_copy,delay_time = 1):
     copyTextToClipboard(driver,text_to_copy)
@@ -518,100 +557,8 @@ def input_chinese(driver,text_to_copy,delay_time = 1):
 
 
 @handle_selenium_errors
-def term_ptt_mailer(records):
-
-
-    driver = init_driver()
-    driver.get("https://term.ptt.cc/")
-    time.sleep(10)
-
-    if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
-        logger.info(pt_config.PTT_AUTH_USER)
-        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER)
-        if check_point(driver, 22 , "請輸入您的密碼:"):
-            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS)
-
-    if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
-        time.sleep(30)
-        ActionChains(driver).send_keys('q').perform()
-
-    if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
-        keyAndPressEnter(driver , 'Y')
-
-    keyAndPressEnter(driver , "q")
-
-    ActionChains(driver).send_keys('q').perform()
-    time.sleep(1)
-    ActionChains(driver).send_keys('q').perform()
-    time.sleep(1)
-    ActionChains(driver).send_keys('q').perform()
-    time.sleep(1)
-    if check_point(driver, 1 , "【主功能表】"):
-        ActionChains(driver).send_keys('m').perform()
-        time.sleep(1)
-        ActionChains(driver).send_keys(Keys.ENTER).perform()
-        time.sleep(1)
-    for record in records:
-        if checkIsOnline(driver) is True:
-            driver.quit()
-        if check_point(driver, 1 ,"電子郵件"):
-            ActionChains(driver).send_keys('s').perform()
-            time.sleep(1)
-            ActionChains(driver).send_keys(Keys.ENTER).perform()
-            time.sleep(1)
-
-        if check_point(driver , 1 , "站內寄信"):
-            if check_point(driver , 2 , "請輸入使用者代號"):
-                #ActionChains(driver).send_keys(record['author']).perform()
-                ActionChains(driver).send_keys('idl5185').perform()
-                time.sleep(1)
-                ActionChains(driver).send_keys(Keys.ENTER).perform()
-                time.sleep(1)
-            if check_point(driver , 3 , "主題"):
-                input_chinese(driver,"Re: "+f"{record['title']}",1)
-                input_chinese(driver,pt_config.PTTMAIL_KINGNET_MSG ,2)
-                ActionChains(driver).click().key_down(Keys.CONTROL).key_down('x').key_up('x').key_up(Keys.CONTROL).perform()
-                time.sleep(3)
-
-            if check_point(driver , 1 , "檔案處理"):
-                ActionChains(driver).send_keys(Keys.ENTER).perform()
-                time.sleep(3)
-
-            if check_point(driver , 1 , "請選擇簽名檔"):
-                ActionChains(driver).send_keys(Keys.ENTER).perform()
-                time.sleep(3)
-            
-            if check_point(driver , 23 , "已順利寄出"):
-                pt_db.update_notify_time("pttmail_notify_time",record['_id'])
-                logger.info(f"pttmail sent for: {record['title']}")
-
-                ActionChains(driver).send_keys('y').perform()
-                ActionChains(driver).send_keys(Keys.ENTER).perform()
-                time.sleep(3)
-            if check_point(driver , 24 , "請按任意鍵繼續"):
-                ActionChains(driver).send_keys(Keys.ENTER).perform()
-                time.sleep(3)
-
-@handle_selenium_errors
-def term_ptt_mailer_inner_loop():
-    driver = init_driver()
-    driver.get("https://term.ptt.cc/")
-    time.sleep(10)
-
-    if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
-        logger.info(pt_config.PTT_AUTH_USER)
-        keyAndPressEnter(driver , pt_config.PTT_AUTH_USER)
-        if check_point(driver, 22 , "請輸入您的密碼:"):
-            keyAndPressEnter(driver , pt_config.PTT_AUTH_PASS)
-
-    if check_point(driver, 23 , "正在更新與同步線上使用者及好友名單，系統負荷量大時會需時較久..."):
-        time.sleep(30)
-        ActionChains(driver).send_keys('q').perform()
-
-    if check_point(driver, 23 , "您想刪除其他重複登入的連線嗎？[Y/n]"):
-        keyAndPressEnter(driver , 'Y')
-
-    keyAndPressEnter(driver , "q")
+def term_ptt_mailer():
+    driver = term_ptt_login_process(pt_config.PTTMAIL_AUTH_USER,pt_config.PTTMAIL_AUTH_PASS)
     while True:
         if checkIsOnline(driver) is True:
             driver.quit()
@@ -624,10 +571,11 @@ def term_ptt_mailer_inner_loop():
         ActionChains(driver).send_keys('q').perform()
         time.sleep(1)
 
-        keywords = pt_config.PTTMAIL_KEYWORDS_ONLY.split("|")
-        logger.info(keywords)
-        records = pt_db.retrieve_updates_after_time_keywords("pttmail_notify_time",keywords)
-
+        allow_keywords = pt_config.PTTMAIL_KEYWORDS_ONLY
+        deny_keywords = pt_config.PTTMAIL_KEYWORDS_DENY
+        logger.info(allow_keywords)
+        logger.info(deny_keywords)
+        records = pt_db.retrieve_updates_after_time_allow_deny("pttmail_notify_time",allow_keywords,deny_keywords)
         if len(records) > 0 :
             if check_point(driver, 1 , "【主功能表】"):
                 ActionChains(driver).send_keys('m').perform()
