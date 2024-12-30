@@ -390,7 +390,7 @@ def term_ptt_login_process(user,passwd):
     driver = init_driver()
     driver.get("https://term.ptt.cc/")
     if check_point(driver, 21 , "請輸入代號，或以 guest 參觀，或以 new 註冊:"):
-        logger.info(pt_config.PTT_AUTH_USER)
+        logger.info(user)
         keyAndPressEnter(driver , user)
         if check_point(driver, 22 , "請輸入您的密碼:"):
             keyAndPressEnter(driver , passwd )
