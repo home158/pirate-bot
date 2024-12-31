@@ -24,6 +24,7 @@ from selenium.webdriver.common.keys import Keys
 import socket
 import asyncio
 from selenium.webdriver.remote.webdriver import WebDriver
+from mongodb_handler import MongoDBHandler  # 假設這是保存類別的文件名
 
 # 使用 pt_logger 設定日誌
 import pt_logger
@@ -376,7 +377,6 @@ def extract_labels_and_contents(log_text):
 
         else:
             logger.info(f"無法匹配這一行: {line}")  # 可以選擇打印無法匹配的行進行調試
-    logger.info(len(result))
     return results
 def checkIsOnline(driver):
     elem = driver.find_element(By.CSS_SELECTOR, "#reactAlert")
@@ -458,6 +458,8 @@ def get_channel_id(board):
         return None
 @handle_selenium_errors
 def term_ptt_crawler(board):
+    mongo_handler = MongoDBHandler(db_name='website', collection_name='termptt')
+
     article_lists = []
     driver = term_ptt_login_process(pt_config.PTT_AUTH_USER,pt_config.PTT_AUTH_PASS)
 
@@ -486,7 +488,7 @@ def term_ptt_crawler(board):
             logger.info(f"HOME目前頁面{board}文章序號: {str(article_id)}")
 
             if article_id > 20:
-                print("印到不是第一頁，重新執行")
+                print("不是第一頁，重新執行")
                 continue
 
             ActionChains(driver).key_down(Keys.END).key_up(Keys.END).perform()
@@ -494,16 +496,16 @@ def term_ptt_crawler(board):
             article_id = get_page_article_id(driver)
             logger.info(f"END 目前頁面{board}文章序號: {str(article_id)}")
             if article_id < 20:
-                print("印到第一頁，重新執行")
+                print("第一頁，重新執行")
                 continue
 
             row_18 = driver.find_element(By.CSS_SELECTOR, "#mainContainer")
             results = extract_labels_and_contents(row_18.text)
-
+            logger.info(results)
             for result in results:
                 title = result['title']
                 if title not in article_lists:
-                    pt_db.insert_to_database(
+                    mongo_handler.insert_to_database(
                         chat_id = get_channel_id(board), 
                         board   = board, 
                         title   = title,
@@ -558,6 +560,7 @@ def input_chinese(driver,text_to_copy,delay_time = 1):
 
 @handle_selenium_errors
 def term_ptt_mailer():
+    mongo_handler = MongoDBHandler(db_name='website', collection_name='termptt')
     driver = term_ptt_login_process(pt_config.PTTMAIL_AUTH_USER,pt_config.PTTMAIL_AUTH_PASS)
     while True:
         if checkIsOnline(driver) is True:
@@ -575,7 +578,7 @@ def term_ptt_mailer():
         deny_keywords = pt_config.PTTMAIL_KEYWORDS_DENY
         logger.info(allow_keywords)
         logger.info(deny_keywords)
-        records = pt_db.retrieve_updates_after_time_allow_deny("pttmail_notify_time",allow_keywords,deny_keywords)
+        records = mongo_handler.retrieve_updates_after_time_allow_deny("pttmail_notify_time",allow_keywords,deny_keywords)
         if len(records) > 0 :
             if check_point(driver, 1 , "【主功能表】"):
                 ActionChains(driver).send_keys('m').perform()
@@ -613,7 +616,7 @@ def term_ptt_mailer():
                         time.sleep(3)
                     
                     if check_point(driver , 23 , "已順利寄出"):
-                        pt_db.update_notify_time("pttmail_notify_time",record['_id'])
+                        mongo_handler.update_notify_time("pttmail_notify_time",record['_id'])
                         logger.info(f"pttmail sent for: {record['title']}")
 
                         ActionChains(driver).send_keys('y').perform()
