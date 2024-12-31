@@ -111,9 +111,9 @@ def run_threads_tg():
     pt_bot.application.run_polling()
 
 def run_threads_ptt():
-    pt_scheduler.term_ptt_crawler(pt_config.TERM_PTT_BOARD)    
-    #ptt_thread = termPttFetcherThread(pt_config.TERM_PTT_BOARD)
-    #ptt_thread.start()
+    #pt_scheduler.term_ptt_crawler(pt_config.TERM_PTT_BOARD)    
+    ptt_thread = termPttFetcherThread(pt_config.TERM_PTT_BOARD)
+    ptt_thread.start()
     
     
 
