@@ -596,8 +596,9 @@ def term_ptt_mailer():
 
                 if check_point(driver , 1 , "站內寄信"):
                     if check_point(driver , 2 , "請輸入使用者代號"):
-                        #ActionChains(driver).send_keys(record['author']).perform()
-                        ActionChains(driver).send_keys('idl5185').perform()
+                        ActionChains(driver).send_keys(record['author']).perform()
+                        logger.info(f"收件者: {record['author']}")
+                        #ActionChains(driver).send_keys('idl5185').perform()
                         time.sleep(1)
                         ActionChains(driver).send_keys(Keys.ENTER).perform()
                         time.sleep(1)
